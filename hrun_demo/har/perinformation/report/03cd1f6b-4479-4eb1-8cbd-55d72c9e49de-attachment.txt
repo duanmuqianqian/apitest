@@ -1,0 +1,110 @@
+2020-12-30 13:47:17.454 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: testcase description, TestCase ID: 2fe22b4f-f21a-41f1-98c0-e4c0dfecadfd
+2020-12-30 13:47:17.455 | INFO     | httprunner.runner:__run_step:292 - run step begin: /3/7.5.26/bplapi/user/v1/loginByEmailPassword >>>>>>
+2020-12-30 13:47:17.716 | DEBUG    | httprunner.client:request:186 - client IP: 172.16.50.102, Port: 55945
+2020-12-30 13:47:17.716 | DEBUG    | httprunner.client:request:194 - server IP: 121.43.126.26, Port: 443
+2020-12-30 13:47:17.717 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : https://games-pre.mobileapi.hupu.com/3/7.5.26/bplapi/user/v1/loginByEmailPassword?client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-2fe22b4f-f21a-41f1-98c0-e4c0dfecadfd-237455",
+    "Content-Length": "62",
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+cookies  : {}
+body     : password=65618383e140db353d238a14a1fdb2f5&username=13817441237
+
+2020-12-30 13:47:17.718 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Wed, 30 Dec 2020 05:47:17 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "958",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:stg:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2012301347175300286342201",
+    "Access-Control-Allow-Origin": "*",
+    "Set-Cookie": "u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.hupu.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.shihuo.cn; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.liangle.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, ua=23323292; domain=.hupu.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, ua=23323292; domain=.shihuo.cn; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, ua=23323292; domain=.liangle.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, us=d008433b374220d4a5cb2ed873073e5cf809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c709b8cb19fc6805c103a1cc72e688314; domain=.hupu.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, us=d008433b374220d4a5cb2ed873073e5cf809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c709b8cb19fc6805c103a1cc72e688314; domain=.shihuo.cn; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, us=d008433b374220d4a5cb2ed873073e5cf809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c709b8cb19fc6805c103a1cc72e688314; domain=.liangle.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, pctpct=oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlUXhI1E88GnYoWSisAHH2oXdAfUtwNU0%2Bh99PuD8t0OkQ%3D%3D; domain=.hupu.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.hupu.cdn.ttnba.cn; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.ftxgame.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.hupu-qwzl.rd-game.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.h5fssdk.aip.cn; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=35138216940182; domain=.shandw.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.port.2r3r.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=35138216940182; domain=.hupu-webserver.odds5.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=35138216940182; domain=.rd-game.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, euid=1; domain=.hp.aiyundu.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly, _gamesu=MzgzNTI0NDc%3D%7CMTYwOTMwNzIzNw%3D%3D%7Cbdab9c8028a7e96c58b005656fb0da90; domain=.hupu.com; expires=Sat, 28-Dec-2030 05:47:17 GMT; path=/; httponly",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-xiaozhao-lb-stg-04646-ecs"
+}
+cookies  : {
+    "_gamesu": "MzgzNTI0NDc%3D%7CMTYwOTMwNzIzNw%3D%3D%7Cbdab9c8028a7e96c58b005656fb0da90",
+    "pctpct": "oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlUXhI1E88GnYoWSisAHH2oXdAfUtwNU0%2Bh99PuD8t0OkQ%3D%3D",
+    "u": "52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D",
+    "ua": "23323292",
+    "us": "d008433b374220d4a5cb2ed873073e5cf809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c709b8cb19fc6805c103a1cc72e688314"
+}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "isLogin": 1,
+    "crt": 1609307237,
+    "error": null,
+    "result": {
+        "uid": "38352447",
+        "puid": 52498468,
+        "nickname": "\u5192\u6ce1\u54c7\u54c7\u54c7",
+        "token": "MzgzNTI0NDc=|MTYwOTMwNzIzNw==|bdab9c8028a7e96c58b005656fb0da90",
+        "balance": 260,
+        "hupuDollarBalance": 4887,
+        "bind": [
+            {
+                "channel": 4,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            },
+            {
+                "channel": 2,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            },
+            {
+                "channel": 1,
+                "status": 1,
+                "is_bind": 1,
+                "bind_name": "0086 13*******37"
+            },
+            {
+                "channel": 3,
+                "status": 1,
+                "is_bind": 1,
+                "bind_name": ""
+            },
+            {
+                "channel": 6,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            }
+        ],
+        "nicknameSetUrl": "http://lite.hupu.com/3/7.5.26/status/setNicknamePage?nickname=\u5192\u6ce1\u54c7\u54c7\u54c7&client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06",
+        "header": "https://i1.hoopchina.com.cn/user/182/35138216940182/35138216940182-1609247671.png@194h_194w_2e",
+        "tag": "d10e673eb1c514f0ea2eccd39c137a2f",
+        "newJr": false,
+        "nickname_set_url": "http://lite.hupu.com/3/7.5.26/status/setNicknamePage?nickname=\u5192\u6ce1\u54c7\u54c7\u54c7&client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06"
+    }
+}
+
+2020-12-30 13:47:17.718 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 260.43 ms, response_length: 0 bytes
+2020-12-30 13:47:17.719 | INFO     | httprunner.response:extract:176 - extract mapping: {'nickname': '冒泡哇哇哇'}
+2020-12-30 13:47:17.719 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2020-12-30 13:47:17.719 | INFO     | httprunner.response:validate:246 - assert body.isLogin equal 1(int)	==> pass
+2020-12-30 13:47:17.719 | INFO     | httprunner.runner:__run_step:304 - run step end: /3/7.5.26/bplapi/user/v1/loginByEmailPassword <<<<<<
+
+2020-12-30 13:47:17.720 | INFO     | httprunner.runner:test_start:460 - generate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/2fe22b4f-f21a-41f1-98c0-e4c0dfecadfd.run.log

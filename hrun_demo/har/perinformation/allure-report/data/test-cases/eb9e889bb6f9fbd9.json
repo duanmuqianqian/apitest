@@ -1,0 +1,85 @@
+{
+  "uid" : "eb9e889bb6f9fbd9",
+  "name" : "testcase description",
+  "fullName" : "setGender_test.TestCaseLoginbyemailpassword#test_start",
+  "historyId" : "6ce0b037ee954d47ac93b4e261cd468c",
+  "time" : {
+    "start" : 1609252159665,
+    "stop" : 1609252159927,
+    "duration" : 262
+  },
+  "description" : "TestCase ID: 245c8b60-e9b7-482e-86f4-e32c49df396d",
+  "descriptionHtml" : "<p>TestCase ID: 245c8b60-e9b7-482e-86f4-e32c49df396d</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 245c8b60-e9b7-482e-86f4-e32c49df396d",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: /3/7.5.26/bplapi/user/v1/loginByEmailPassword",
+      "time" : {
+        "start" : 1609252159670,
+        "stop" : 1609252159927,
+        "duration" : 257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5553562f5b7cab0",
+      "name" : "stderr",
+      "source" : "5553562f5b7cab0.txt",
+      "type" : "text/plain",
+      "size" : 8879
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "setGender_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseLoginbyemailpassword"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-5.local"
+  }, {
+    "name" : "thread",
+    "value" : "31855-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "setGender_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb9e889bb6f9fbd9.json",
+  "parameterValues" : [ ]
+}

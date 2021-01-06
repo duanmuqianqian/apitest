@@ -1,0 +1,60 @@
+2021-01-05 21:18:55.177 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: 账号密码登录, TestCase ID: 003f6b42-b491-43d3-8bad-e8e686cb99dc
+2021-01-05 21:18:55.178 | INFO     | httprunner.runner:__run_step:292 - run step begin: 账号密码登录 >>>>>>
+2021-01-05 21:18:55.255 | WARNING  | httprunner.client:request:188 - failed to get client address info: 'WrappedSocket' object has no attribute 'getsockname'
+2021-01-05 21:18:55.255 | WARNING  | httprunner.client:request:196 - failed to get server address info: 'WrappedSocket' object has no attribute 'getpeername'
+2021-01-05 21:18:55.257 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : https://games.mobileapi.hupu.com/1/7.5.26/bplapi/user/v1/loginByEmailPassword?client=6d61684741a1408c
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 10; HRY-AL00a Build/HONORHRY-AL00a; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 kanqiu/7.5.26.12725/7748 isp/1 network/13",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "HRUN-Request-ID": "HRUN-003f6b42-b491-43d3-8bad-e8e686cb99dc-735179",
+    "Content-Length": "108"
+}
+cookies  : {}
+body     : username =13817441237&password =65618383e140db353d238a14a1fdb2f5&timeline=1608111672&client=6d61684741a1408c
+
+2021-01-05 21:18:55.258 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Tue, 05 Jan 2021 13:18:55 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "103",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:production:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2101052118552500914186356",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-zhaomin-prd-04669-ecs"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "isLogin": 0,
+    "crt": null,
+    "error": {
+        "id": 101,
+        "text": "\u63a5\u53e3\u4f20\u5165\u53c2\u6570\u4e0d\u5b8c\u6574\u6216\u6709\u8bef"
+    },
+    "result": null
+}
+
+2021-01-05 21:18:55.259 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 76.03 ms, response_length: 0 bytes
+2021-01-05 21:18:55.259 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2021-01-05 21:18:55.260 | INFO     | httprunner.runner:__run_step:304 - run step end: 账号密码登录 <<<<<<
+
+2021-01-05 21:18:55.260 | INFO     | httprunner.runner:test_start:460 - generate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/003f6b42-b491-43d3-8bad-e8e686cb99dc.run.log

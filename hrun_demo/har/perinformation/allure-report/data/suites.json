@@ -1,0 +1,170 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "changeheader_test",
+    "children" : [ {
+      "name" : "TestCaseChangeheader",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "ef7035b72216e2ad",
+        "parentUid" : "1000f4db75f9fbef9b4ea14ceb846273",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307235444,
+          "stop" : 1609307236155,
+          "duration" : 711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '正常传递头像数据', 'headerPath': 'user/182/35138216940182/35138216940182-1609247671.png', 'status': 200, 'msg': '为了您和他人的安全与隐私，头像（昵称）审核中，预计最迟将会在1工作日内完成审核'}" ]
+      }, {
+        "name" : "testcase description",
+        "uid" : "2753c9f2a1045fba",
+        "parentUid" : "1000f4db75f9fbef9b4ea14ceb846273",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307236162,
+          "stop" : 1609307236646,
+          "duration" : 484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '不传递头像数据', 'headerPath': '', 'status': 500, 'msg': '接口传入参数不完整或有误'}" ]
+      } ],
+      "uid" : "1000f4db75f9fbef9b4ea14ceb846273"
+    }, {
+      "name" : "TestCaseLoginbyemailpassword",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "8aaf70d4bbf7abc3",
+        "parentUid" : "270daec317ddfcadb5bfeecdeee74e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307236651,
+          "stop" : 1609307236942,
+          "duration" : 291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "270daec317ddfcadb5bfeecdeee74e55"
+    } ],
+    "uid" : "2f6c57a8a4fcd3ce42649d51c2b2a8fe"
+  }, {
+    "name" : "getCityList_test",
+    "children" : [ {
+      "name" : "TestCaseGetcitylist",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "a9a68cb806cd5118",
+        "parentUid" : "c54685e653988e8a42f672f0d48fc5e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307236945,
+          "stop" : 1609307237447,
+          "duration" : 502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c54685e653988e8a42f672f0d48fc5e6"
+    }, {
+      "name" : "TestCaseLoginbyemailpassword",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "44566f60f3e4d012",
+        "parentUid" : "114696b478f11315b52517b1058f9116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307237450,
+          "stop" : 1609307237721,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "114696b478f11315b52517b1058f9116"
+    } ],
+    "uid" : "06013811b2bda6c482434d2b1a435fb4"
+  }, {
+    "name" : "setCity_test",
+    "children" : [ {
+      "name" : "TestCaseSetcity",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "b16293c499e8f681",
+        "parentUid" : "39f8714cedfb04c0163cb0856b771ae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307237724,
+          "stop" : 1609307238052,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39f8714cedfb04c0163cb0856b771ae9"
+    }, {
+      "name" : "TestCaseLoginbyemailpassword",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "aab8d5b3584e4f6f",
+        "parentUid" : "0cae4bdc0ab936c217e4477869715bc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307238056,
+          "stop" : 1609307238383,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cae4bdc0ab936c217e4477869715bc3"
+    } ],
+    "uid" : "88b6a2c3b293254b0ba4ddc2fe4e8ead"
+  }, {
+    "name" : "setGender_test",
+    "children" : [ {
+      "name" : "TestCaseSetgender",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "49d1c10ca722ab28",
+        "parentUid" : "8755060796994374a00c766c28c18a86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307238387,
+          "stop" : 1609307238746,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8755060796994374a00c766c28c18a86"
+    }, {
+      "name" : "TestCaseLoginbyemailpassword",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "b0bfba592182f82f",
+        "parentUid" : "32a5f230c770bca5d4a632fbf7d1ccf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609307238749,
+          "stop" : 1609307239035,
+          "duration" : 286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32a5f230c770bca5d4a632fbf7d1ccf9"
+    } ],
+    "uid" : "ff0dce36468185b76247056bc567cfbf"
+  } ]
+}

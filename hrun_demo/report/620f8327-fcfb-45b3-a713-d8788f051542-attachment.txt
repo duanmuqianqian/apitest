@@ -1,0 +1,218 @@
+2021-01-05 20:24:09.817 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: 获取赛事卡片, TestCase ID: fc3325d1-1d4e-4f6c-aafd-b8920668b1e3
+2021-01-05 20:24:09.818 | INFO     | httprunner.runner:__run_step:292 - run step begin: 获取赛事卡片 >>>>>>
+2021-01-05 20:24:10.036 | DEBUG    | httprunner.client:request:186 - client IP: 172.16.27.183, Port: 64976
+2021-01-05 20:24:10.037 | DEBUG    | httprunner.client:request:194 - server IP: 47.111.82.176, Port: 443
+2021-01-05 20:24:10.038 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : https://games.mobileapi.hupu.com/3/7.5.26/bplapi/device/v1/home/cards?cid=88505902
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-fc3325d1-1d4e-4f6c-aafd-b8920668b1e3-449818"
+}
+cookies  : {}
+body     : None
+
+2021-01-05 20:24:10.040 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Tue, 05 Jan 2021 12:24:10 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "X-Application-Context": "msv-zuul-hupu:production:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2101052024098720959886295",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-zhaomin-prd-04665-ecs",
+    "Content-Encoding": "gzip"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "status": 200,
+    "msg": "success",
+    "result": [
+        {
+            "business": {
+                "type": 1,
+                "name": "basketball",
+                "cnName": "\u7bee\u7403"
+            },
+            "gameCardInfo": {
+                "game": {
+                    "homeTeam": {
+                        "teamName": "\u52c7\u58eb",
+                        "icon": "http://gdc.hupucdn.com/gdc/nba/team/logo/e6d876b019135540.png",
+                        "score": "137"
+                    },
+                    "visitingTeam": {
+                        "teamName": "\u56fd\u738b",
+                        "icon": "http://gdc.hupucdn.com/gdc/nba/team/logo/54b9b9a860d5000d.png",
+                        "score": "106"
+                    },
+                    "gameId": "784660410933444608",
+                    "gameTime": "01\u670805\u65e5 11:00",
+                    "gameType": "NBA\u5e38\u89c4\u8d5b",
+                    "gameStatusStr": "\u5df2\u7ed3\u675f",
+                    "gameStatus": 2,
+                    "gameImg": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E7%AF%AE%E7%90%83.png",
+                    "gameNightImg": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E7%AF%AE%E7%90%83-%E5%A4%9C%E9%97%B4.png",
+                    "title": "\u7bee\u7403\u5b9e\u65f6\u70ed\u70b9",
+                    "gameScheme": "huputiyu://bball/live?matchId=784660410933444608&gdcId=159187&type=nba&firstSchema=huputiyu%3a%2f%2fmain%2fvajra%3fcode%3dbball",
+                    "gameScore": "137-106"
+                },
+                "gameThread": {
+                    "title": "\u67d0\u7f51\u7ea2\u7591\u4f3c\u4e3a\u82f1\u683c\u62c9\u59c6\u751f\u5b50\uff0c\u6b64\u524d\u5979\u4ee5\u4e3a\u5b69\u5b50\u7236\u4eb2\u662f\u5e03\u514b",
+                    "link": "kanqiu://bbs/topic/40295714?entrance=6&fid=4860",
+                    "replyCounts": 757,
+                    "lightReplyCounts": 50,
+                    "img": "http://i1.hoopchina.com.cn/hupuapp/kanqiu/202101/3c6d002ef67b457187742c042b79d7c7.jpg",
+                    "scheme": "huputiyu://main/vajra?code=bball&jumpSchema=kanqiu%3A%2F%2Fbbs%2Ftopic%2F40295714%3Fentrance%3D6%26fid%3D4860"
+                },
+                "gameNavList": [
+                    {
+                        "name": "\u65b0\u95fb",
+                        "scheme": "huputiyu://main/vajra?code=bball&subSchema=huputiyu%3a%2f%2fbball%2fhome%3fmodule%3dnews%26default%3dnba_news",
+                        "icon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E6%96%B0%E9%97%BB-%E6%97%A5%E9%97%B4.png",
+                        "nightIcon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E6%96%B0%E9%97%BB-%E5%A4%9C%E9%97%B4.png"
+                    },
+                    {
+                        "name": "\u8d5b\u7a0b",
+                        "scheme": "huputiyu://main/vajra?code=bball&subSchema=huputiyu%3a%2f%2fbball%2fhome%3fmodule%3dmatch%26default%3dnba_match",
+                        "icon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E8%B5%9B%E7%A8%8B-%E6%97%A5%E9%97%B4.png",
+                        "nightIcon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E8%B5%9B%E7%A8%8B-%E5%A4%9C%E9%97%B4.png"
+                    },
+                    {
+                        "name": "\u6570\u636e",
+                        "scheme": "huputiyu://main/vajra?code=bball&subSchema=huputiyu%3a%2f%2fbball%2fhome%3fmodule%3ddata%26default%3dnba_data",
+                        "icon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E6%95%B0%E6%8D%AE-%E6%97%A5%E9%97%B4.png",
+                        "nightIcon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E6%95%B0%E6%8D%AE-%E5%A4%9C%E9%97%B4.png"
+                    }
+                ]
+            },
+            "hotCardInfo": null,
+            "type": 1
+        },
+        {
+            "business": {
+                "type": 3,
+                "name": "LOL",
+                "cnName": "\u82f1\u96c4\u8054\u76df"
+            },
+            "gameCardInfo": null,
+            "hotCardInfo": {
+                "hots": [
+                    {
+                        "title": "Uzi\u5e74\u5ea6\u8d70\u4f4d\u7b2c\u4e8c\u5f39\uff0c\u4e34\u5371\u4e0d\u4e71\u8fdb\u9000\u81ea\u5982\u6b64\u4e43\u771f\u52c7\u8005?",
+                        "link": "kanqiu://bbs/topic/40281967?entrance=6&fid=3441",
+                        "replyCounts": 74,
+                        "lightReplyCounts": 23,
+                        "img": "http://i11.hoopchina.com.cn/hupuapp/kanqiu/202101/kanqiu_0_20210105182722_1773209140.png?x-oss-process=image/resize,w_250/sharpen,100/format,webp",
+                        "scheme": "huputiyu://main/vajra?code=lol&jumpSchema=kanqiu%3A%2F%2Fbbs%2Ftopic%2F40281967%3Fentrance%3D6%26fid%3D3441"
+                    },
+                    {
+                        "title": "\u6ed4\u640f2021LPL\u6625\u5b63\u8d5b\u9009\u624b\u5b9a\u5986\u7167\u82b1\u7d6e ",
+                        "link": "kanqiu://bbs/topic/40296816?entrance=6&fid=3441",
+                        "replyCounts": 78,
+                        "lightReplyCounts": 19,
+                        "img": "http://i11.hoopchina.com.cn/hupuapp/kanqiu/202101/kanqiu_0_20210105190124_755606281.png?x-oss-process=image/resize,w_250/sharpen,100/format,webp",
+                        "scheme": "huputiyu://main/vajra?code=lol&jumpSchema=kanqiu%3A%2F%2Fbbs%2Ftopic%2F40296816%3Fentrance%3D6%26fid%3D3441"
+                    },
+                    {
+                        "title": "2021LPL\u6625\u5b63\u8d5biG\u5b9a\u5986\u7167\u82b1\u7d6e\uff1a\u51fb\u5251TheShy",
+                        "link": "kanqiu://bbs/topic/40296893?entrance=6&fid=3441",
+                        "replyCounts": 80,
+                        "lightReplyCounts": 13,
+                        "img": "http://i11.hoopchina.com.cn/hupuapp/kanqiu/202101/kanqiu_0_20210105190005_1101165477.png?x-oss-process=image/resize,w_250/sharpen,100/format,webp",
+                        "scheme": "huputiyu://main/vajra?code=lol&jumpSchema=kanqiu%3A%2F%2Fbbs%2Ftopic%2F40296893%3Fentrance%3D6%26fid%3D3441"
+                    }
+                ]
+            },
+            "type": 2
+        },
+        {
+            "business": {
+                "type": 2,
+                "name": "football",
+                "cnName": "\u8db3\u7403"
+            },
+            "gameCardInfo": {
+                "game": {
+                    "homeTeam": {
+                        "teamName": "\u70ed\u523a",
+                        "icon": "http://gdc.hupucdn.com/gdc/soccer/team/logo/110x88/124.png",
+                        "score": "0"
+                    },
+                    "visitingTeam": {
+                        "teamName": "\u5e03\u4f26\u7279\u798f\u5fb7",
+                        "icon": "https://i2.hoopchina.com.cn/blogfile/202012/30/BbsImg_191759916112086_1609323260_s_10777_o_w_150_h_150_88289.png",
+                        "score": "0"
+                    },
+                    "gameId": "12",
+                    "gameTime": "01\u670806\u65e5 03:45",
+                    "gameType": "\u56fd\u9645\u8db3\u7403\u82f1\u8054\u676f\u534a\u51b3\u8d5b",
+                    "gameStatusStr": "3:45\u5f00\u7403",
+                    "gameStatus": 1,
+                    "gameImg": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E8%B6%B3%E7%90%83.png",
+                    "gameNightImg": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E8%B6%B3%E7%90%83-%E5%A4%9C%E9%97%B4.png",
+                    "title": "\u8db3\u7403\u5b9e\u65f6\u70ed\u70b9",
+                    "gameScheme": "huputiyu://soccerleagues/fifa/live/10006851",
+                    "gameScore": null
+                },
+                "gameThread": {
+                    "title": "[\u70ed\u8bae]\u524d\u573a3\u5927\u65b0\u63f4\u4f4e\u8ff7\uff0c\u5207\u5c14\u897f1.7\u4ebf\u9551\u6253\u6c34\u6f02\u4e86\uff1f",
+                    "link": "kanqiu://bbs/topic/40286793?entrance=6&fid=1389",
+                    "replyCounts": 78,
+                    "lightReplyCounts": 22,
+                    "img": "http://i11.hoopchina.com.cn/hupuapp/kanqiu/202101/kanqiu_0_20210105164756_1929330550.jpeg?x-oss-process=image/resize,w_250/sharpen,100/format,webp",
+                    "scheme": "huputiyu://main/vajra?code=soccer&jumpSchema=kanqiu%3A%2F%2Fbbs%2Ftopic%2F40286793%3Fentrance%3D6%26fid%3D1389"
+                },
+                "gameNavList": [
+                    {
+                        "name": "\u65b0\u95fb",
+                        "scheme": "huputiyu://main/vajra?code=soccer&subSchema=huputiyu%3a%2f%2fsoccer%2fhome%3ftop%3d%25e8%25b5%2584%25e8%25ae%25af%26module%3dhome",
+                        "icon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E6%96%B0%E9%97%BB-%E6%97%A5%E9%97%B4.png",
+                        "nightIcon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E6%96%B0%E9%97%BB-%E5%A4%9C%E9%97%B4.png"
+                    },
+                    {
+                        "name": "\u8d5b\u7a0b",
+                        "scheme": "huputiyu://main/vajra?code=soccer&subSchema=huputiyu%3A%2F%2Fsoccer%2Fhome%3Fmodule%3Dmatch",
+                        "icon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E8%B5%9B%E7%A8%8B-%E6%97%A5%E9%97%B4.png",
+                        "nightIcon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E8%B5%9B%E7%A8%8B-%E5%A4%9C%E9%97%B4.png"
+                    },
+                    {
+                        "name": "\u6570\u636e",
+                        "scheme": "huputiyu://main/vajra?code=soccer&subSchema=huputiyu%3A%2F%2Fsoccer%2Fhome%3Fmodule%3Drank",
+                        "icon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E6%95%B0%E6%8D%AE-%E6%97%A5%E9%97%B4.png",
+                        "nightIcon": "https://i1.hoopchina.com.cn/upload-oss/yaozihang/%E6%95%B0%E6%8D%AE-%E5%A4%9C%E9%97%B4.png"
+                    }
+                ]
+            },
+            "hotCardInfo": null,
+            "type": 1
+        }
+    ]
+}
+
+2021-01-05 20:24:10.041 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 217.61 ms, response_length: 0 bytes
+2021-01-05 20:24:10.041 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2021-01-05 20:24:10.042 | INFO     | httprunner.response:validate:246 - assert body.status equal 200(int)	==> pass
+2021-01-05 20:24:10.042 | INFO     | httprunner.response:validate:246 - assert body.msg equal success(str)	==> pass
+2021-01-05 20:24:10.043 | INFO     | httprunner.runner:__run_step:304 - run step end: 获取赛事卡片 <<<<<<
+
+2021-01-05 20:24:10.044 | INFO     | httprunner.runner:test_start:460 - generate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/fc3325d1-1d4e-4f6c-aafd-b8920668b1e3.run.log

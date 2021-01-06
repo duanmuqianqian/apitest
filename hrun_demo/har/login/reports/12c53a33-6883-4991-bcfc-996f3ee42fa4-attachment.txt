@@ -1,0 +1,67 @@
+[32m2020-12-28 17:09:33.736[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m451[0m - [1mStart to run testcase: testcase description, TestCase ID: bbe9dc42-ffbb-4979-90c2-29a5a599e137[0m
+[32m2020-12-28 17:09:33.737[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: $title >>>>>>[0m
+[32m2020-12-28 17:09:33.737[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__call_hooks[0m:[36m112[0m - [1mcall hook actions: setup request[0m
+[32m2020-12-28 17:09:33.737[0m | [34m[1mDEBUG   [0m | [36mhttprunner.runner[0m:[36m__call_hooks[0m:[36m121[0m - [34m[1mcall hook function: ${hook_up($request)}[0m
+[32m2020-12-28 17:09:33.830[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m186[0m - [34m[1mclient IP: 172.16.27.176, Port: 50445[0m
+[32m2020-12-28 17:09:33.830[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m194[0m - [34m[1mserver IP: 47.111.82.97, Port: 443[0m
+[32m2020-12-28 17:09:33.831[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== request details ==================
+method   : POST
+url      : https://games.mobileapi.hupu.com/3/7.5.26/bplapi/user/v1/loginByEmailPassword?client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+    "HRUN-Request-ID": "HRUN-bbe9dc42-ffbb-4979-90c2-29a5a599e137-573737",
+    "Content-Length": "99"
+}
+cookies  : {}
+body     : clientId=88505902&password=1234567&username=13817441237&client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06
+[0m
+[32m2020-12-28 17:09:33.832[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 28 Dec 2020 09:09:33 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "87",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:production:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2012281709337950634686295",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-zhaomin-prd-04665-ecs"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "isLogin": 0,
+    "crt": null,
+    "error": {
+        "id": -6000,
+        "text": "\u5bc6\u7801\u683c\u5f0f\u9519\u8bef"
+    },
+    "result": null
+}
+[0m
+[32m2020-12-28 17:09:33.833[0m | [1mINFO    [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m218[0m - [1mstatus_code: 200, response_time(ms): 91.81 ms, response_length: 0 bytes[0m
+[32m2020-12-28 17:09:33.833[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__call_hooks[0m:[36m112[0m - [1mcall hook actions: teardown request[0m
+[32m2020-12-28 17:09:33.834[0m | [34m[1mDEBUG   [0m | [36mhttprunner.runner[0m:[36m__call_hooks[0m:[36m121[0m - [34m[1mcall hook function: ${hook_down($response)}[0m
+[32m2020-12-28 17:09:33.834[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert status_code equal 200(int)	==> pass[0m
+[32m2020-12-28 17:09:33.835[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert body.isLogin equal 0(int)	==> pass[0m
+[32m2020-12-28 17:09:33.835[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert body.error.text contains 密码格式错误(str)	==> pass[0m
+[32m2020-12-28 17:09:33.836[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert body.error.text contains 密码格式错误(str)	==> pass[0m
+[32m2020-12-28 17:09:33.836[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m304[0m - [1mrun step end: $title <<<<<<
+[0m
+[32m2020-12-28 17:09:33.837[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m460[0m - [1mgenerate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/bbe9dc42-ffbb-4979-90c2-29a5a599e137.run.log[0m

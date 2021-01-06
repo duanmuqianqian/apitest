@@ -1,0 +1,156 @@
+{
+  "uid" : "ef7035b72216e2ad",
+  "name" : "testcase description",
+  "fullName" : "changeheader_test.TestCaseChangeheader#test_start",
+  "historyId" : "532b558a50ee9ccada93cc7f79e91246",
+  "time" : {
+    "start" : 1609307235444,
+    "stop" : 1609307236155,
+    "duration" : 711
+  },
+  "description" : "TestCase ID: 7e8a100f-2e70-4551-a603-a573cb430f08",
+  "descriptionHtml" : "<p>TestCase ID: 7e8a100f-2e70-4551-a603-a573cb430f08</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1609307235442,
+      "stop" : 1609307235442,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "TestCase ID: 7e8a100f-2e70-4551-a603-a573cb430f08",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: 登录",
+      "time" : {
+        "start" : 1609307235449,
+        "stop" : 1609307236067,
+        "duration" : 618
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: /3/7.5.26/bplapi/user/v1/loginByEmailPassword",
+        "time" : {
+          "start" : 1609307235449,
+          "stop" : 1609307236067,
+          "duration" : 618
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step: 改头像",
+      "time" : {
+        "start" : 1609307236067,
+        "stop" : 1609307236155,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d1a1f8b70ba9c62c",
+      "name" : "stdout",
+      "source" : "d1a1f8b70ba9c62c.txt",
+      "type" : "text/plain",
+      "size" : 28
+    }, {
+      "uid" : "2a781b3e65034dfe",
+      "name" : "stderr",
+      "source" : "2a781b3e65034dfe.txt",
+      "type" : "text/plain",
+      "size" : 12877
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1609307236647,
+      "stop" : 1609307236647,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "changeheader_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseChangeheader"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-5.local"
+  }, {
+    "name" : "thread",
+    "value" : "37068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "changeheader_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'title': '正常传递头像数据', 'headerPath': 'user/182/35138216940182/35138216940182-1609247671.png', 'status': 200, 'msg': '为了您和他人的安全与隐私，头像（昵称）审核中，预计最迟将会在1工作日内完成审核'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef7035b72216e2ad.json",
+  "parameterValues" : [ "{'title': '正常传递头像数据', 'headerPath': 'user/182/35138216940182/35138216940182-1609247671.png', 'status': 200, 'msg': '为了您和他人的安全与隐私，头像（昵称）审核中，预计最迟将会在1工作日内完成审核'}" ]
+}

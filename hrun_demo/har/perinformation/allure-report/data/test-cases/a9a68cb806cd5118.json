@@ -1,0 +1,117 @@
+{
+  "uid" : "a9a68cb806cd5118",
+  "name" : "testcase description",
+  "fullName" : "getCityList_test.TestCaseGetcitylist#test_start",
+  "historyId" : "a8ce9ce07ceb815465975ed1c4feb180",
+  "time" : {
+    "start" : 1609307236945,
+    "stop" : 1609307237447,
+    "duration" : 502
+  },
+  "description" : "TestCase ID: b7ed6e46-666d-4687-a88e-858e578b5cec",
+  "descriptionHtml" : "<p>TestCase ID: b7ed6e46-666d-4687-a88e-858e578b5cec</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: b7ed6e46-666d-4687-a88e-858e578b5cec",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: 登录",
+      "time" : {
+        "start" : 1609307236952,
+        "stop" : 1609307237346,
+        "duration" : 394
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: /3/7.5.26/bplapi/user/v1/loginByEmailPassword",
+        "time" : {
+          "start" : 1609307236953,
+          "stop" : 1609307237345,
+          "duration" : 392
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step: 获取城市列表",
+      "time" : {
+        "start" : 1609307237346,
+        "stop" : 1609307237446,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "eba8c46aeea8b772",
+      "name" : "stderr",
+      "source" : "eba8c46aeea8b772.txt",
+      "type" : "text/plain",
+      "size" : 38589
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "getCityList_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseGetcitylist"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-5.local"
+  }, {
+    "name" : "thread",
+    "value" : "37068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "getCityList_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9a68cb806cd5118.json",
+  "parameterValues" : [ ]
+}

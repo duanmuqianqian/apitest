@@ -1,0 +1,117 @@
+{
+  "uid" : "b16293c499e8f681",
+  "name" : "testcase description",
+  "fullName" : "setCity_test.TestCaseSetcity#test_start",
+  "historyId" : "0eda015e881a0347c5887dc41ae117c9",
+  "time" : {
+    "start" : 1609307237724,
+    "stop" : 1609307238052,
+    "duration" : 328
+  },
+  "description" : "TestCase ID: 232d2f06-abc1-4e6e-a8c5-7a3b437be168",
+  "descriptionHtml" : "<p>TestCase ID: 232d2f06-abc1-4e6e-a8c5-7a3b437be168</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 232d2f06-abc1-4e6e-a8c5-7a3b437be168",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: 登录",
+      "time" : {
+        "start" : 1609307237730,
+        "stop" : 1609307237986,
+        "duration" : 256
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: /3/7.5.26/bplapi/user/v1/loginByEmailPassword",
+        "time" : {
+          "start" : 1609307237731,
+          "stop" : 1609307237985,
+          "duration" : 254
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step: 设置所在地",
+      "time" : {
+        "start" : 1609307237986,
+        "stop" : 1609307238052,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "812b5ca4f6353bac",
+      "name" : "stderr",
+      "source" : "812b5ca4f6353bac.txt",
+      "type" : "text/plain",
+      "size" : 12137
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "setCity_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseSetcity"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-5.local"
+  }, {
+    "name" : "thread",
+    "value" : "37068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "setCity_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b16293c499e8f681.json",
+  "parameterValues" : [ ]
+}

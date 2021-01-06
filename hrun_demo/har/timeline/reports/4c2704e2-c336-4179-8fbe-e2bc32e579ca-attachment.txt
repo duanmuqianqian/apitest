@@ -1,0 +1,658 @@
+[32m2020-12-28 19:50:16.733[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m451[0m - [1mStart to run testcase: 获取动态列表, TestCase ID: c6cc31c6-cf67-49c4-81e1-9338c59cc9c6[0m
+[32m2020-12-28 19:50:16.734[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: 登录 >>>>>>[0m
+[32m2020-12-28 19:50:16.734[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: /3/7.5.26/bplapi/user/v1/loginByEmailPassword >>>>>>[0m
+[32m2020-12-28 19:50:16.954[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m186[0m - [34m[1mclient IP: 172.16.27.176, Port: 52129[0m
+[32m2020-12-28 19:50:16.954[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m194[0m - [34m[1mserver IP: 47.96.1.93, Port: 443[0m
+[32m2020-12-28 19:50:16.955[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== request details ==================
+method   : POST
+url      : https://games.mobileapi.hupu.com/3/7.5.26/bplapi/user/v1/loginByEmailPassword?client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-c6cc31c6-cf67-49c4-81e1-9338c59cc9c6-216735",
+    "Content-Length": "62",
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+cookies  : {}
+body     : password=65618383e140db353d238a14a1fdb2f5&username=13817441237
+[0m
+[32m2020-12-28 19:50:16.956[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 28 Dec 2020 11:50:16 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "958",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:production:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2012281950167910230486329",
+    "Access-Control-Allow-Origin": "*",
+    "Set-Cookie": "u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.hupu.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.shihuo.cn; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.liangle.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, ua=23321104; domain=.hupu.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, ua=23321104; domain=.shihuo.cn; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, ua=23321104; domain=.liangle.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, us=6e64b177a097dc11c40e31033da62356f809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c423f67a4055f01a1d44cf9863b9c828d; domain=.hupu.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, us=6e64b177a097dc11c40e31033da62356f809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c423f67a4055f01a1d44cf9863b9c828d; domain=.shihuo.cn; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, us=6e64b177a097dc11c40e31033da62356f809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c423f67a4055f01a1d44cf9863b9c828d; domain=.liangle.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, pctpct=oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlVt14cTHQNF%2FGudpAUXdDJ8DAGPzl6i73oqErzzMBe1SQ%3D%3D; domain=.hupu.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.hupu.cdn.ttnba.cn; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.ftxgame.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.hupu-qwzl.rd-game.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.h5fssdk.aip.cn; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=35138216940182; domain=.shandw.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.port.2r3r.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=35138216940182; domain=.hupu-webserver.odds5.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=35138216940182; domain=.rd-game.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, euid=1; domain=.hp.aiyundu.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly, _gamesu=MzgzNTI0NDc%3D%7CMTYwOTE1NjIxNg%3D%3D%7C24a93deddb7ecb42be2e62dbfb870e42; domain=.hupu.com; expires=Thu, 26-Dec-2030 11:50:16 GMT; path=/; httponly",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-zhaomin-prd-04661-ecs"
+}
+cookies  : {
+    "_gamesu": "MzgzNTI0NDc%3D%7CMTYwOTE1NjIxNg%3D%3D%7C24a93deddb7ecb42be2e62dbfb870e42",
+    "pctpct": "oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlVt14cTHQNF%2FGudpAUXdDJ8DAGPzl6i73oqErzzMBe1SQ%3D%3D",
+    "u": "52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D",
+    "ua": "23321104",
+    "us": "6e64b177a097dc11c40e31033da62356f809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c423f67a4055f01a1d44cf9863b9c828d"
+}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "isLogin": 1,
+    "crt": 1609156216,
+    "error": null,
+    "result": {
+        "uid": "38352447",
+        "puid": 52498468,
+        "nickname": "\u5192\u6ce1\u54c7\u54c7\u54c7",
+        "token": "MzgzNTI0NDc=|MTYwOTE1NjIxNg==|24a93deddb7ecb42be2e62dbfb870e42",
+        "balance": 260,
+        "hupuDollarBalance": 4887,
+        "bind": [
+            {
+                "channel": 4,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            },
+            {
+                "channel": 2,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            },
+            {
+                "channel": 1,
+                "status": 1,
+                "is_bind": 1,
+                "bind_name": "0086 13*******37"
+            },
+            {
+                "channel": 3,
+                "status": 1,
+                "is_bind": 1,
+                "bind_name": ""
+            },
+            {
+                "channel": 6,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            }
+        ],
+        "nicknameSetUrl": "http://lite.hupu.com/3/7.5.26/status/setNicknamePage?nickname=\u5192\u6ce1\u54c7\u54c7\u54c7&client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06",
+        "header": "https://i1.hoopchina.com.cn/user/182/35138216940182/35138216940182-1609127924.jpg@194h_194w_2e",
+        "tag": "2e58dbf0b3e234aeefb3b42116d7ac46",
+        "newJr": false,
+        "nickname_set_url": "http://lite.hupu.com/3/7.5.26/status/setNicknamePage?nickname=\u5192\u6ce1\u54c7\u54c7\u54c7&client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06"
+    }
+}
+[0m
+[32m2020-12-28 19:50:16.957[0m | [1mINFO    [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m218[0m - [1mstatus_code: 200, response_time(ms): 219.4 ms, response_length: 0 bytes[0m
+[32m2020-12-28 19:50:16.957[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert status_code equal 200(int)	==> pass[0m
+[32m2020-12-28 19:50:16.957[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert body.isLogin equal 1(int)	==> pass[0m
+[32m2020-12-28 19:50:16.958[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m304[0m - [1mrun step end: /3/7.5.26/bplapi/user/v1/loginByEmailPassword <<<<<<
+[0m
+[32m2020-12-28 19:50:16.958[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m304[0m - [1mrun step end: 登录 <<<<<<
+[0m
+[32m2020-12-28 19:50:16.958[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: $title >>>>>>[0m
+[32m2020-12-28 19:50:17.120[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m186[0m - [34m[1mclient IP: 172.16.27.176, Port: 52129[0m
+[32m2020-12-28 19:50:17.120[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m194[0m - [34m[1mserver IP: 47.96.1.93, Port: 443[0m
+[32m2020-12-28 19:50:17.121[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== request details ==================
+method   : GET
+url      : https://games.mobileapi.hupu.com/3/7.5.26/bplapi/timeline/v1/getTimeline?page=2&type=FOLLOW_TIMELINE&puid=46864351&lastCommentTime=1606017759782
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-c6cc31c6-cf67-49c4-81e1-9338c59cc9c6-216959",
+    "Cookie": "_gamesu=MzgzNTI0NDc%3D%7CMTYwOTE1NjIxNg%3D%3D%7C24a93deddb7ecb42be2e62dbfb870e42; pctpct=oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlVt14cTHQNF%2FGudpAUXdDJ8DAGPzl6i73oqErzzMBe1SQ%3D%3D; u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; ua=23321104; us=6e64b177a097dc11c40e31033da62356f809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c423f67a4055f01a1d44cf9863b9c828d"
+}
+cookies  : {
+    "_gamesu": "MzgzNTI0NDc%3D%7CMTYwOTE1NjIxNg%3D%3D%7C24a93deddb7ecb42be2e62dbfb870e42",
+    "pctpct": "oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlVt14cTHQNF%2FGudpAUXdDJ8DAGPzl6i73oqErzzMBe1SQ%3D%3D",
+    "u": "52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D",
+    "ua": "23321104",
+    "us": "6e64b177a097dc11c40e31033da62356f809fda82dadf83c692650f8bfc39510c266d2bd26f6a75006bd40279eb8691c423f67a4055f01a1d44cf9863b9c828d"
+}
+body     : None
+[0m
+[32m2020-12-28 19:50:17.125[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 28 Dec 2020 11:50:17 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "X-Application-Context": "msv-zuul-hupu:production:8080",
+    "X-Content-Type-Options": "nosniff, nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2012281950169750343286324",
+    "X-Server": "ops-zhaomin-prd-04684-ecs",
+    "Content-Encoding": "gzip"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "status": 200,
+    "msg": "success",
+    "result": {
+        "puid": 46864351,
+        "type": "FOLLOW_TIMELINE",
+        "moments": [
+            {
+                "id": 734321,
+                "timestamp": 1605989227721,
+                "tid": 39376708,
+                "pid": 81631,
+                "puid": 18320500,
+                "contentId": 81631,
+                "info": {
+                    "thread": {
+                        "author": {
+                            "puid": 18320500,
+                            "username": "\u5c0f\u57f9\u57f9\u4e36",
+                            "header": "https://i2.hoopchina.com.cn/user/650/173173751846650/173173751846650-1604083202.png",
+                            "sex": 1
+                        },
+                        "tid": 39376708,
+                        "puid": 18320500,
+                        "title": "\u5065\u8eab\u5feb\u4e00\u5e74\u5566 \u6ca1\u505a\u8fc7\u5377\u8179\u7684\u8179\u808c\u7ec8\u4e8e\u6e05\u6670\u4e86 ",
+                        "content": "<p>\u73b0\u5728\u5f00\u59cb\u4f5b\u7cfb\u5065\u8eab\u54af \u7a7f\u8863\u663e\u7626 \u8131\u8863\u6709\u8089\u5c31\u597d</p><p></p><p>\u7ec3\u6210\u5973\u5b69\u5b50\u559c\u6b22\u624d\u884c</p>",
+                        "attr": "a:7:{s:15:\"transcodeThread\";i:1;s:7:\"f_video\";i:1;s:10:\"request_id\";s:39:\"112121-1fde398a489841029924a0526f88fa7f\";s:10:\"video_info\";a:17:{s:3:\"vid\";i:2028732;s:3:\"tid\";i:39376708;s:3:\"pid\";i:0;s:4:\"puid\";i:0;s:8:\"from_url\";s:101:\"http://v.hoopchina.com.cn/hupuapp/bbs/173173751846650/thread_173173751846650_20201121210759_28672.mp4\";s:3:\"src\";s:159:\"https://v.hoopchina.com.cn/hupuapp/bbs/173173751846650/thread_173173751846650_20201121210759_28672.mp4?auth_key=1609177407-0-0-840cd880971654076403ca98a6811bfe\";s:3:\"img\";s:104:\"https://i10.hoopchina.com.cn/hupuapp/bbs/173173751846650/thread_173173751846650_20201121210759_46649.jpg\";s:5:\"width\";i:720;s:6:\"height\";i:1280;s:8:\"duration\";i:8;s:4:\"size\";i:1167281;s:6:\"origin\";s:0:\"\";s:6:\"expire\";i:1609017526;s:8:\"play_num\";i:300;s:18:\"bullet_comment_num\";i:0;s:6:\"status\";i:2;s:7:\"addtime\";i:1605964202;}s:6:\"oldFid\";i:203;s:10:\"oldTopicId\";a:1:{i:0;i:23;}s:12:\"reply_person\";i:4;}",
+                        "fid": 203,
+                        "topicId": 23,
+                        "createTime": 1605964202,
+                        "status": 0,
+                        "replies": 5,
+                        "lights": 0,
+                        "recommendNum": 0,
+                        "visits": 4600,
+                        "images": [],
+                        "coverImage": "",
+                        "isVideoThread": 1,
+                        "videoImg": "https://i10.hoopchina.com.cn/hupuapp/bbs/173173751846650/thread_173173751846650_20201121210759_46649.jpg"
+                    },
+                    "reply": {
+                        "author": {
+                            "puid": 18320500,
+                            "username": "\u5c0f\u57f9\u57f9\u4e36",
+                            "header": "https://i2.hoopchina.com.cn/user/650/173173751846650/173173751846650-1604083202.png",
+                            "sex": 1
+                        },
+                        "pid": 81631,
+                        "tid": 39376708,
+                        "aid": null,
+                        "puid": 18320500,
+                        "username": "\u5c0f\u57f9\u57f9\u4e36",
+                        "via": 10,
+                        "content": "\u6ca1\u4eba\u7406\u6211",
+                        "quote": 44505,
+                        "attr": "a:3:{s:6:\"client\";s:40:\"0489348c2bf711bba5033da8e4dcbfe289d36c81\";s:12:\"audit_status\";i:1;s:10:\"request_id\";s:39:\"112204-b48ac5947668496a8f970905b30ffd84\";}",
+                        "score": 0,
+                        "pageNumber": null,
+                        "images": [],
+                        "isVideoThread": 0,
+                        "videoImg": null,
+                        "create_time": 1605989227,
+                        "update_info": "0"
+                    },
+                    "images": [],
+                    "link": "huputiyu://bbs/topic/39376708",
+                    "valid": true,
+                    "desc": "\u56de\u590d\u4e86\u5e16\u5b50",
+                    "author": {
+                        "puid": 18320500,
+                        "username": "\u5c0f\u57f9\u57f9\u4e36",
+                        "header": "https://i2.hoopchina.com.cn/user/650/173173751846650/173173751846650-1604083202.png",
+                        "sex": 1
+                    },
+                    "pubDate": "11\u670822\u65e5",
+                    "coverImage": ""
+                },
+                "jumpLink": null,
+                "momentId": 734321,
+                "type": "REPLY_PUBLISH"
+            },
+            {
+                "id": 733042,
+                "timestamp": 1605964321570,
+                "tid": 39353406,
+                "pid": 366965,
+                "puid": 18320500,
+                "contentId": 366965,
+                "info": {
+                    "thread": {
+                        "author": {
+                            "puid": 29406417,
+                            "username": "\u7f8e\u56fd\u625b\u9738\u5b50",
+                            "header": "https://w1.hoopchina.com.cn/games/images/man_pic.png",
+                            "sex": 1
+                        },
+                        "tid": 39353406,
+                        "puid": 29406417,
+                        "title": "\u83dc\u9e21\u5367\u63a890kg \u4e24\u4eba\u529b\u7aed",
+                        "content": "<p></p>",
+                        "attr": "a:7:{s:15:\"transcodeThread\";i:1;s:7:\"f_video\";i:1;s:10:\"request_id\";s:39:\"112020-63e701356aa4432bbe05e85481e9c9d3\";s:10:\"video_info\";a:17:{s:3:\"vid\";i:2025390;s:3:\"tid\";i:39353406;s:3:\"pid\";i:0;s:4:\"puid\";i:0;s:8:\"from_url\";s:101:\"http://v.hoopchina.com.cn/hupuapp/bbs/232389209738344/thread_232389209738344_20201120205738_35428.mp4\";s:3:\"src\";s:159:\"https://v.hoopchina.com.cn/hupuapp/bbs/232389209738344/thread_232389209738344_20201120205738_35428.mp4?auth_key=1609177407-0-0-3e9c54e57d7453a4d4f5791c2ce8337f\";s:3:\"img\";s:103:\"https://i4.hoopchina.com.cn/hupuapp/bbs/232389209738344/thread_232389209738344_20201120205735_24604.jpg\";s:5:\"width\";i:1280;s:6:\"height\";i:720;s:8:\"duration\";i:32;s:4:\"size\";i:5172201;s:6:\"origin\";s:0:\"\";s:6:\"expire\";i:1609141793;s:8:\"play_num\";i:240;s:18:\"bullet_comment_num\";i:1;s:6:\"status\";i:1;s:7:\"addtime\";i:1605877077;}s:6:\"oldFid\";i:203;s:10:\"oldTopicId\";a:1:{i:0;i:23;}s:12:\"reply_person\";i:7;}",
+                        "fid": 203,
+                        "topicId": 23,
+                        "createTime": 1605877077,
+                        "status": 0,
+                        "replies": 7,
+                        "lights": 0,
+                        "recommendNum": 0,
+                        "visits": 3800,
+                        "images": [],
+                        "coverImage": "",
+                        "isVideoThread": 1,
+                        "videoImg": "https://i4.hoopchina.com.cn/hupuapp/bbs/232389209738344/thread_232389209738344_20201120205735_24604.jpg"
+                    },
+                    "reply": {
+                        "author": {
+                            "puid": 18320500,
+                            "username": "\u5c0f\u57f9\u57f9\u4e36",
+                            "header": "https://i2.hoopchina.com.cn/user/650/173173751846650/173173751846650-1604083202.png",
+                            "sex": 1
+                        },
+                        "pid": 366965,
+                        "tid": 39353406,
+                        "aid": null,
+                        "puid": 18320500,
+                        "username": "\u5c0f\u57f9\u57f9\u4e36",
+                        "via": 10,
+                        "content": "\u54c8\u54c8\u54c890\u6211\u5e94\u8be5\u80fd\u505a1\u4e2a \u4f60\u592a\u731b\u4e86\uff01",
+                        "quote": 0,
+                        "attr": "a:3:{s:6:\"client\";s:40:\"0489348c2bf711bba5033da8e4dcbfe289d36c81\";s:12:\"audit_status\";i:1;s:10:\"request_id\";s:39:\"112121-7958c29901534b738b5efbb42690c70e\";}",
+                        "score": 0,
+                        "pageNumber": null,
+                        "images": [],
+                        "isVideoThread": 0,
+                        "videoImg": null,
+                        "create_time": 1605964321,
+                        "update_info": "0"
+                    },
+                    "images": [],
+                    "link": "huputiyu://bbs/topic/39353406",
+                    "valid": true,
+                    "desc": "\u56de\u590d\u4e86\u5e16\u5b50",
+                    "author": {
+                        "puid": 18320500,
+                        "username": "\u5c0f\u57f9\u57f9\u4e36",
+                        "header": "https://i2.hoopchina.com.cn/user/650/173173751846650/173173751846650-1604083202.png",
+                        "sex": 1
+                    },
+                    "pubDate": "11\u670821\u65e5",
+                    "coverImage": ""
+                },
+                "jumpLink": null,
+                "momentId": 733042,
+                "type": "REPLY_PUBLISH"
+            },
+            {
+                "id": 733038,
+                "timestamp": 1605964202262,
+                "tid": 39376708,
+                "pid": 0,
+                "puid": 18320500,
+                "contentId": 39376708,
+                "info": {
+                    "thread": {
+                        "author": {
+                            "puid": 18320500,
+                            "username": "\u5c0f\u57f9\u57f9\u4e36",
+                            "header": "https://i2.hoopchina.com.cn/user/650/173173751846650/173173751846650-1604083202.png",
+                            "sex": 1
+                        },
+                        "tid": 39376708,
+                        "puid": 18320500,
+                        "title": "\u5065\u8eab\u5feb\u4e00\u5e74\u5566 \u6ca1\u505a\u8fc7\u5377\u8179\u7684\u8179\u808c\u7ec8\u4e8e\u6e05\u6670\u4e86 ",
+                        "content": "<p>\u73b0\u5728\u5f00\u59cb\u4f5b\u7cfb\u5065\u8eab\u54af \u7a7f\u8863\u663e\u7626 \u8131\u8863\u6709\u8089\u5c31\u597d</p><p></p><p>\u7ec3\u6210\u5973\u5b69\u5b50\u559c\u6b22\u624d\u884c</p>",
+                        "attr": "a:7:{s:15:\"transcodeThread\";i:1;s:7:\"f_video\";i:1;s:10:\"request_id\";s:39:\"112121-1fde398a489841029924a0526f88fa7f\";s:10:\"video_info\";a:17:{s:3:\"vid\";i:2028732;s:3:\"tid\";i:39376708;s:3:\"pid\";i:0;s:4:\"puid\";i:0;s:8:\"from_url\";s:101:\"http://v.hoopchina.com.cn/hupuapp/bbs/173173751846650/thread_173173751846650_20201121210759_28672.mp4\";s:3:\"src\";s:159:\"https://v.hoopchina.com.cn/hupuapp/bbs/173173751846650/thread_173173751846650_20201121210759_28672.mp4?auth_key=1609177407-0-0-840cd880971654076403ca98a6811bfe\";s:3:\"img\";s:104:\"https://i10.hoopchina.com.cn/hupuapp/bbs/173173751846650/thread_173173751846650_20201121210759_46649.jpg\";s:5:\"width\";i:720;s:6:\"height\";i:1280;s:8:\"duration\";i:8;s:4:\"size\";i:1167281;s:6:\"origin\";s:0:\"\";s:6:\"expire\";i:1609017526;s:8:\"play_num\";i:300;s:18:\"bullet_comment_num\";i:0;s:6:\"status\";i:2;s:7:\"addtime\";i:1605964202;}s:6:\"oldFid\";i:203;s:10:\"oldTopicId\";a:1:{i:0;i:23;}s:12:\"reply_person\";i:4;}",
+                        "fid": 203,
+                        "topicId": 23,
+                        "createTime": 1605964202,
+                        "status": 0,
+                        "replies": 5,
+                        "lights": 0,
+                        "recommendNum": 0,
+                        "visits": 4600,
+                        "images": [],
+                        "coverImage": "",
+                        "isVideoThread": 1,
+                        "videoImg": "https://i10.hoopchina.com.cn/hupuapp/bbs/173173751846650/thread_173173751846650_20201121210759_46649.jpg"
+                    },
+                    "images": [],
+                    "link": "huputiyu://bbs/topic/39376708",
+                    "valid": true,
+                    "desc": "\u53d1\u8868\u4e86\u5e16\u5b50",
+                    "author": {
+                        "puid": 18320500,
+                        "username": "\u5c0f\u57f9\u57f9\u4e36",
+                        "header": "https://i2.hoopchina.com.cn/user/650/173173751846650/173173751846650-1604083202.png",
+                        "sex": 1
+                    },
+                    "pubDate": "11\u670821\u65e5",
+                    "coverImage": ""
+                },
+                "jumpLink": null,
+                "momentId": 733038,
+                "type": "THREAD_PUBLISH"
+            },
+            {
+                "id": 723376,
+                "timestamp": 1605844405661,
+                "tid": 39341397,
+                "pid": 257666,
+                "puid": 52498468,
+                "contentId": 257666,
+                "info": {
+                    "thread": {
+                        "author": {
+                            "puid": 40396392,
+                            "username": "\u5c0f\u5c0f\u5412",
+                            "header": "https://i3.hoopchina.com.cn/user/66/25534741061066/25534741061066-1585455064.jpeg",
+                            "sex": 1
+                        },
+                        "tid": 39341397,
+                        "puid": 40396392,
+                        "title": "\u8def\u8fc7\u770b\u5230\uff0c\u80fd\u5fcd\u4e0d\uff1f\n\u5173\u952e\u6211\u4e0d\u662f\u7403\u8ff7",
+                        "content": "<p>\u5730\u70b9\u662f\u4e0a\u6d77\u8679\u53e3\u8db3\u7403\u573a</p><p><img src=\"https://i1.hoopchina.com.cn/hupuapp/bbs/392/40396392/thread_40396392_20201120100651_s_178882_o_w_1440_h_1080_16890.jpg\" data-h=\"1080\" data-w=\"1440\" data-imgid=\"a2e222a4e921d080b973e8d57e7437ef\"/></p>",
+                        "attr": "a:5:{s:6:\"oldFid\";i:1048;s:12:\"reply_person\";i:122;s:10:\"request_id\";s:39:\"112010-bd94826b71584ed0941cf23a51a3691d\";s:10:\"oldTopicId\";a:1:{i:0;i:177;}s:9:\"share_num\";i:21;}",
+                        "fid": 1048,
+                        "topicId": 177,
+                        "createTime": 1605838045,
+                        "status": 0,
+                        "replies": 160,
+                        "lights": 39,
+                        "recommendNum": 31,
+                        "visits": 232400,
+                        "images": [
+                            "https://i1.hoopchina.com.cn/hupuapp/bbs/392/40396392/thread_40396392_20201120100651_s_178882_o_w_1440_h_1080_16890.jpg"
+                        ],
+                        "coverImage": "https://i1.hoopchina.com.cn/hupuapp/bbs/392/40396392/thread_40396392_20201120100651_s_178882_o_w_1440_h_1080_16890.jpg",
+                        "isVideoThread": 0,
+                        "videoImg": null
+                    },
+                    "reply": {
+                        "author": {
+                            "puid": 52498468,
+                            "username": "\u5192\u6ce1\u54c7\u54c7\u54c7",
+                            "header": "https://i1.hoopchina.com.cn/user/182/35138216940182/35138216940182-1609127924.jpg",
+                            "sex": 2
+                        },
+                        "pid": 257666,
+                        "tid": 39341397,
+                        "aid": null,
+                        "puid": 52498468,
+                        "username": "\u5192\u6ce1\u54c7\u54c7\u54c7",
+                        "via": 9,
+                        "content": "\u90a3\u4f60\u79bb\u864e\u6251\u5f88\u8fd1\u4e86",
+                        "quote": 0,
+                        "attr": "a:3:{s:6:\"client\";s:16:\"d44290839e96f346\";s:12:\"audit_status\";i:1;s:10:\"request_id\";s:39:\"112011-f1525e9058e542ac91761069f3f32ce5\";}",
+                        "score": 3688,
+                        "pageNumber": null,
+                        "images": [],
+                        "isVideoThread": 0,
+                        "videoImg": null,
+                        "create_time": 1605844405,
+                        "update_info": "0"
+                    },
+                    "images": [],
+                    "link": "huputiyu://bbs/topic/39341397",
+                    "valid": true,
+                    "desc": "\u56de\u590d\u4e86\u5e16\u5b50",
+                    "author": {
+                        "puid": 52498468,
+                        "username": "\u5192\u6ce1\u54c7\u54c7\u54c7",
+                        "header": "https://i1.hoopchina.com.cn/user/182/35138216940182/35138216940182-1609127924.jpg",
+                        "sex": 2
+                    },
+                    "pubDate": "11\u670820\u65e5",
+                    "coverImage": ""
+                },
+                "jumpLink": null,
+                "momentId": 723376,
+                "type": "REPLY_PUBLISH"
+            },
+            {
+                "id": 785433,
+                "timestamp": 1605794368845,
+                "tid": 39335149,
+                "pid": 0,
+                "puid": 68994875,
+                "contentId": 39335149,
+                "info": {
+                    "thread": {
+                        "author": {
+                            "puid": 68994875,
+                            "username": "\u864e\u6251JR02024",
+                            "header": "https://i3.hoopchina.com.cn/user/962/8802810074962/8802810074962-1588139073.jpeg",
+                            "sex": 1
+                        },
+                        "tid": 39335149,
+                        "puid": 68994875,
+                        "title": "\u53d1\u5e16\u53d1\u5e16\u83f2\u7279",
+                        "content": "<p></p><img src=\"https://i4.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605794293_s_18118_o_w_500_h_512_39924.jpg\" data-h=\"512\" data-w=\"500\" data-imgid=\"6677186f8b35d2d49a8f8e07051478cd\"><h3>\u8428\u8fbe\u6240\u5927\u6240\u5927</h3><p></p><p><strong>\u662f\u7684</strong></p><p></p><p></p>[vote]10291896[/vote]<p></p><video controls=\"\" poster=\"https://i3.hoopchina.com.cn/bbs-editor-web/16057943376972.jpg\" src=\"https://v.hoopchina.com.cn/bbs-editor-web/8802810074962/1605794334931_706.mp4?auth_key=1609177407-0-0-bc3a5a188d59a519a0b6cba5b4ac1563\" data-cover=\"https://i3.hoopchina.com.cn/bbs-editor-web/16057943376972.jpg\" data-desc=\"\" data-preview=\"http://v.hoopchina.com.cn/bbs-editor-web/8802810074962/1605794334931_706.mp4?auth_key=1605815937-0-0-2df4b61c3cb2076857779b122cc592f6\" data-time=\"11\" data-img=\"\" data-height=\"1280\" data-width=\"614\"></video><p></p><a href=\"https://www.baidu.com\" data-type=\"card-link\" data-name=\"\u4e0d\u6c42\" class=\"hp-custom-link\" target=\"_blank\">\u4e0d\u6c42</a><p><a href=\"www.baidu.com\" target=\"_blank\">www.baidu.com</a></p><p></p><p></p>",
+                        "attr": "a:7:{s:6:\"oldFid\";i:4524;s:14:\"imgVideoThread\";i:1;s:9:\"recommend\";s:3:\"off\";s:10:\"request_id\";s:39:\"111921-945e70561c6349c0aaa87aa38079d98b\";s:10:\"oldTopicId\";a:1:{i:0;i:362;}s:7:\"f_video\";i:1;s:10:\"video_info\";a:17:{s:3:\"vid\";i:2022290;s:3:\"tid\";i:39335149;s:3:\"pid\";i:0;s:4:\"puid\";i:0;s:8:\"from_url\";s:76:\"http://v.hoopchina.com.cn/bbs-editor-web/8802810074962/1605794334931_706.mp4\";s:3:\"src\";s:134:\"https://v.hoopchina.com.cn/bbs-editor-web/8802810074962/1605794334931_706.mp4?auth_key=1609177407-0-0-bc3a5a188d59a519a0b6cba5b4ac1563\";s:3:\"img\";s:0:\"\";s:5:\"width\";i:614;s:6:\"height\";i:1280;s:8:\"duration\";i:11;s:4:\"size\";i:307246;s:6:\"origin\";s:0:\"\";s:6:\"expire\";i:0;s:8:\"play_num\";i:0;s:18:\"bullet_comment_num\";i:0;s:6:\"status\";i:2;s:7:\"addtime\";i:1605794368;}}",
+                        "fid": 4524,
+                        "topicId": 362,
+                        "createTime": 1605794368,
+                        "status": 0,
+                        "replies": 0,
+                        "lights": 0,
+                        "recommendNum": 0,
+                        "visits": 0,
+                        "images": [
+                            "https://i4.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605794293_s_18118_o_w_500_h_512_39924.jpg"
+                        ],
+                        "coverImage": "https://i4.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605794293_s_18118_o_w_500_h_512_39924.jpg",
+                        "isVideoThread": 1,
+                        "videoImg": ""
+                    },
+                    "images": [],
+                    "link": "huputiyu://bbs/topic/39335149",
+                    "valid": true,
+                    "desc": "\u53d1\u8868\u4e86\u5e16\u5b50",
+                    "author": {
+                        "puid": 68994875,
+                        "username": "\u864e\u6251JR02024",
+                        "header": "https://i3.hoopchina.com.cn/user/962/8802810074962/8802810074962-1588139073.jpeg",
+                        "sex": 1
+                    },
+                    "pubDate": "11\u670819\u65e5",
+                    "coverImage": ""
+                },
+                "jumpLink": null,
+                "momentId": 785433,
+                "type": "THREAD_PUBLISH"
+            },
+            {
+                "id": 785239,
+                "timestamp": 1605792002220,
+                "tid": 39334394,
+                "pid": 0,
+                "puid": 68994875,
+                "contentId": 39334394,
+                "info": {
+                    "thread": {
+                        "author": {
+                            "puid": 68994875,
+                            "username": "\u864e\u6251JR02024",
+                            "header": "https://i2.hoopchina.com.cn/user/962/8802810074962/8802810074962-1588139073.jpeg",
+                            "sex": 1
+                        },
+                        "tid": 39334394,
+                        "puid": 68994875,
+                        "title": "\u864e\u6251\u864e\u6251",
+                        "content": "<p>\u5b89\u8fbe\u5e02\u591a<img src=\"https://i4.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791998_s_18118_o_w_500_h_512_43107.jpg\" data-h=\"512\" data-w=\"500\" data-imgid=\"aa20af3681c4a97a118969f33dd7d2a6\"/></p>",
+                        "attr": "a:3:{s:6:\"oldFid\";i:4524;s:10:\"request_id\";s:39:\"111921-226431a33bc84c3e8dd4b73244ef2b0e\";s:10:\"oldTopicId\";a:1:{i:0;i:362;}}",
+                        "fid": 4524,
+                        "topicId": 362,
+                        "createTime": 1605792001,
+                        "status": 0,
+                        "replies": 0,
+                        "lights": 0,
+                        "recommendNum": 0,
+                        "visits": 0,
+                        "images": [
+                            "https://i4.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791998_s_18118_o_w_500_h_512_43107.jpg"
+                        ],
+                        "coverImage": "https://i4.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791998_s_18118_o_w_500_h_512_43107.jpg",
+                        "isVideoThread": 0,
+                        "videoImg": null
+                    },
+                    "images": [],
+                    "link": "huputiyu://bbs/topic/39334394",
+                    "valid": true,
+                    "desc": "\u53d1\u8868\u4e86\u5e16\u5b50",
+                    "author": {
+                        "puid": 68994875,
+                        "username": "\u864e\u6251JR02024",
+                        "header": "https://i2.hoopchina.com.cn/user/962/8802810074962/8802810074962-1588139073.jpeg",
+                        "sex": 1
+                    },
+                    "pubDate": "11\u670819\u65e5",
+                    "coverImage": ""
+                },
+                "jumpLink": null,
+                "momentId": 785239,
+                "type": "THREAD_PUBLISH"
+            },
+            {
+                "id": 785206,
+                "timestamp": 1605791621765,
+                "tid": 39334224,
+                "pid": 0,
+                "puid": 68994875,
+                "contentId": 39334224,
+                "info": {
+                    "thread": {
+                        "author": {
+                            "puid": 68994875,
+                            "username": "\u864e\u6251JR02024",
+                            "header": "https://i3.hoopchina.com.cn/user/962/8802810074962/8802810074962-1588139073.jpeg",
+                            "sex": 1
+                        },
+                        "tid": 39334224,
+                        "puid": 68994875,
+                        "title": "sdsdfsdfsdfsdfsd",
+                        "content": "<p>\u53d1\u53d1\u53d1\u98d2\u98d2</p><p></p><p>\u662f\u7684\u963f\u65af\u8fbe</p><p></p><p>\u963f\u65af\u8fbe</p><p></p><p><a href=\"https://stg-bbs.hupu.com/www.baidu.com\" target=\"_blank\">www.baidu.com</a></p><p></p><p></p><p><a href=\"https://www.baidu.com/\" target=\"_blank\">\u767e\u5ea6</a></p><p>[vote]10291859[/vote]<img src=\"https://i3.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791618_s_18118_o_w_500_h_512_5782.jpg\" data-h=\"512\" data-w=\"500\" data-imgid=\"a1e21b690ca368b044a9d69baf15c8a0\"/></p><p></p><p></p><p></p><p></p>",
+                        "attr": "a:3:{s:6:\"oldFid\";i:4524;s:10:\"request_id\";s:39:\"111921-0c56f4a041e746ca89130ecc70d74c22\";s:10:\"oldTopicId\";a:1:{i:0;i:362;}}",
+                        "fid": 4524,
+                        "topicId": 362,
+                        "createTime": 1605791621,
+                        "status": 0,
+                        "replies": 0,
+                        "lights": 0,
+                        "recommendNum": 0,
+                        "visits": 0,
+                        "images": [
+                            "https://i3.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791618_s_18118_o_w_500_h_512_5782.jpg"
+                        ],
+                        "coverImage": "https://i3.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791618_s_18118_o_w_500_h_512_5782.jpg",
+                        "isVideoThread": 0,
+                        "videoImg": null
+                    },
+                    "images": [],
+                    "link": "huputiyu://bbs/topic/39334224",
+                    "valid": true,
+                    "desc": "\u53d1\u8868\u4e86\u5e16\u5b50",
+                    "author": {
+                        "puid": 68994875,
+                        "username": "\u864e\u6251JR02024",
+                        "header": "https://i3.hoopchina.com.cn/user/962/8802810074962/8802810074962-1588139073.jpeg",
+                        "sex": 1
+                    },
+                    "pubDate": "11\u670819\u65e5",
+                    "coverImage": ""
+                },
+                "jumpLink": null,
+                "momentId": 785206,
+                "type": "THREAD_PUBLISH"
+            },
+            {
+                "id": 785174,
+                "timestamp": 1605791316791,
+                "tid": 39334126,
+                "pid": 0,
+                "puid": 68994875,
+                "contentId": 39334126,
+                "info": {
+                    "thread": {
+                        "author": {
+                            "puid": 68994875,
+                            "username": "\u864e\u6251JR02024",
+                            "header": "https://i2.hoopchina.com.cn/user/962/8802810074962/8802810074962-1588139073.jpeg",
+                            "sex": 1
+                        },
+                        "tid": 39334126,
+                        "puid": 68994875,
+                        "title": "xscasadasdas\u864e\u6251",
+                        "content": "<p>\u53d1\u53d1\u53d1\u98d2\u98d2</p><p></p><p><strong>\u662f\u7684\u963f\u65af\u8fbe</strong></p><p></p><p></p><p><span data-type=\"font-color\" data-color=\"#ffcd54\" style=\"color:#ffcd54\">\u963f\u65af\u8fbe</span></p><p></p><p><a href=\"www.baidu.com\" target=\"_blank\">www.baidu.com</a></p><p></p><p></p><p><a href=\"https://www.baidu.com\" class=\"hp-custom-link\" target=\"_blank\">\u767e\u5ea6</a></p><p></p><p><video controls=\"\" poster=\"https://i5.hoopchina.com.cn/bbs-editor-web/16057912791107.jpg\" src=\"https://v.hoopchina.com.cn/bbs-editor-web/8802810074962/1605791273095_128.mp4?auth_key=1609177407-0-0-67abbda6db49e68126c99985780b0166\" data-cover=\"https://i5.hoopchina.com.cn/bbs-editor-web/16057912791107.jpg\" data-desc=\"\" data-preview=\"http://v.hoopchina.com.cn/bbs-editor-web/8802810074962/1605791273095_128.mp4?auth_key=1605812879-0-0-82e00205f9d29149e7630e14f6cdad77\" data-time=\"120\" data-img=\"\" data-height=\"724\" data-width=\"1280\"></video></p><p></p><p>[vote]10291855[/vote]</p><p></p><p><img src=\"https://i2.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791307_s_18118_o_w_500_h_512_90662.jpg\" data-imgid=\"308bb4d0c4dacd3b822adbdc16c74762\"></p><p></p><span data-time=\"1605791822\" style=\"display:none\"></span>",
+                        "attr": "a:4:{s:6:\"oldFid\";i:4524;s:14:\"imgVideoThread\";i:1;s:10:\"request_id\";N;s:10:\"oldTopicId\";a:1:{i:0;i:362;}}",
+                        "fid": 4524,
+                        "topicId": 362,
+                        "createTime": 1605791316,
+                        "status": 0,
+                        "replies": 0,
+                        "lights": 0,
+                        "recommendNum": 0,
+                        "visits": 0,
+                        "images": [
+                            "https://i2.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791307_s_18118_o_w_500_h_512_90662.jpg"
+                        ],
+                        "coverImage": "https://i2.hoopchina.com.cn/blogfile/202011/19/BbsImg_8802810074962_1605791307_s_18118_o_w_500_h_512_90662.jpg",
+                        "isVideoThread": 0,
+                        "videoImg": null
+                    },
+                    "images": [],
+                    "link": "huputiyu://bbs/topic/39334126",
+                    "valid": true,
+                    "desc": "\u53d1\u8868\u4e86\u5e16\u5b50",
+                    "author": {
+                        "puid": 68994875,
+                        "username": "\u864e\u6251JR02024",
+                        "header": "https://i2.hoopchina.com.cn/user/962/8802810074962/8802810074962-1588139073.jpeg",
+                        "sex": 1
+                    },
+                    "pubDate": "11\u670819\u65e5",
+                    "coverImage": ""
+                },
+                "jumpLink": null,
+                "momentId": 785174,
+                "type": "THREAD_PUBLISH"
+            }
+        ],
+        "isLast": 0
+    }
+}
+[0m
+[32m2020-12-28 19:50:17.126[0m | [1mINFO    [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m218[0m - [1mstatus_code: 200, response_time(ms): 160.85 ms, response_length: 0 bytes[0m
+[32m2020-12-28 19:50:17.126[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert body.status equal 200(int)	==> pass[0m
+[32m2020-12-28 19:50:17.127[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert body.msg equal success(str)	==> pass[0m
+[32m2020-12-28 19:50:17.127[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m304[0m - [1mrun step end: $title <<<<<<
+[0m
+[32m2020-12-28 19:50:17.127[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m460[0m - [1mgenerate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/c6cc31c6-cf67-49c4-81e1-9338c59cc9c6.run.log[0m

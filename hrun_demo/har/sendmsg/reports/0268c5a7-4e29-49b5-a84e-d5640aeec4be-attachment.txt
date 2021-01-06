@@ -1,0 +1,4 @@
+[32m2020-12-28 17:11:42.314[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m451[0m - [1mStart to run testcase: testcase description, TestCase ID: 11d5da65-b17d-41e8-9ddd-36d65ce0a8a8[0m
+[32m2020-12-28 17:11:42.315[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: 登录 >>>>>>[0m
+[32m2020-12-28 17:11:42.315[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: $title >>>>>>[0m
+[32m2020-12-28 17:11:42.317[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m460[0m - [1mgenerate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/11d5da65-b17d-41e8-9ddd-36d65ce0a8a8.run.log[0m

@@ -1,0 +1,447 @@
+2021-01-05 21:18:46.668 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: testcase description, TestCase ID: 35b07f9c-03eb-49cb-9f5c-9bc420896056
+2021-01-05 21:18:46.669 | INFO     | httprunner.runner:__run_step:292 - run step begin: 登录 >>>>>>
+2021-01-05 21:18:46.670 | INFO     | httprunner.runner:__run_step:292 - run step begin: /3/7.5.26/bplapi/user/v1/loginByEmailPassword >>>>>>
+2021-01-05 21:18:46.895 | WARNING  | httprunner.client:request:188 - failed to get client address info: 'WrappedSocket' object has no attribute 'getsockname'
+2021-01-05 21:18:46.896 | WARNING  | httprunner.client:request:196 - failed to get server address info: 'WrappedSocket' object has no attribute 'getpeername'
+2021-01-05 21:18:46.897 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : https://games-pre.mobileapi.hupu.com/3/7.5.26/bplapi/user/v1/loginByEmailPassword?client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-35b07f9c-03eb-49cb-9f5c-9bc420896056-726670",
+    "Content-Length": "62",
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+cookies  : {}
+body     : password=65618383e140db353d238a14a1fdb2f5&username=13817441237
+
+2021-01-05 21:18:46.898 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Tue, 05 Jan 2021 13:18:46 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "958",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:stg:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2101052118467320124342201",
+    "Access-Control-Allow-Origin": "*",
+    "Set-Cookie": "u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.hupu.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.shihuo.cn; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; domain=.liangle.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, ua=23331198; domain=.hupu.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, ua=23331198; domain=.shihuo.cn; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, ua=23331198; domain=.liangle.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, us=ffa6353110b37bc277678faaf9ccf0d59f776c1ec6dcdddc8f5c83509d56e6fc1426ad8126dd3b4621ddbfbbfb11c4d9396ac0f1ba0c509e35ff876d17c06c0c; domain=.hupu.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, us=ffa6353110b37bc277678faaf9ccf0d59f776c1ec6dcdddc8f5c83509d56e6fc1426ad8126dd3b4621ddbfbbfb11c4d9396ac0f1ba0c509e35ff876d17c06c0c; domain=.shihuo.cn; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, us=ffa6353110b37bc277678faaf9ccf0d59f776c1ec6dcdddc8f5c83509d56e6fc1426ad8126dd3b4621ddbfbbfb11c4d9396ac0f1ba0c509e35ff876d17c06c0c; domain=.liangle.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, pctpct=oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlUZt%2F%2FH2eN9Xsj6gKolTI0MOD137fNLHapUf%2FeTgL%2FQhg%3D%3D; domain=.hupu.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.hupu-qwzl.rd-game.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.ftxgame.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.hupu.cdn.ttnba.cn; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.h5fssdk.aip.cn; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=35138216940182; domain=.shandw.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=QN2M7wz247SJer3MZEjrn6d3CVqzgUegN2edWlXpgX4%3D; domain=.port.2r3r.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=35138216940182; domain=.hupu-webserver.odds5.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=35138216940182; domain=.rd-game.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, euid=1; domain=.hp.aiyundu.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly, _gamesu=MzgzNTI0NDc%3D%7CMTYwOTg1MjcyNg%3D%3D%7Ce900999b01389a05cb79620c09023fdd; domain=.hupu.com; expires=Fri, 03-Jan-2031 13:18:46 GMT; path=/; httponly",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-xiaozhao-lb-stg-04646-ecs"
+}
+cookies  : {
+    "_gamesu": "MzgzNTI0NDc%3D%7CMTYwOTg1MjcyNg%3D%3D%7Ce900999b01389a05cb79620c09023fdd",
+    "pctpct": "oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlUZt%2F%2FH2eN9Xsj6gKolTI0MOD137fNLHapUf%2FeTgL%2FQhg%3D%3D",
+    "u": "52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D",
+    "ua": "23331198",
+    "us": "ffa6353110b37bc277678faaf9ccf0d59f776c1ec6dcdddc8f5c83509d56e6fc1426ad8126dd3b4621ddbfbbfb11c4d9396ac0f1ba0c509e35ff876d17c06c0c"
+}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "isLogin": 1,
+    "crt": 1609852726,
+    "error": null,
+    "result": {
+        "uid": "38352447",
+        "puid": 52498468,
+        "nickname": "\u5192\u6ce1\u54c7\u54c7\u54c7",
+        "token": "MzgzNTI0NDc=|MTYwOTg1MjcyNg==|e900999b01389a05cb79620c09023fdd",
+        "balance": 260,
+        "hupuDollarBalance": 4887,
+        "bind": [
+            {
+                "channel": 4,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            },
+            {
+                "channel": 2,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            },
+            {
+                "channel": 1,
+                "status": 1,
+                "is_bind": 1,
+                "bind_name": "0086 13*******37"
+            },
+            {
+                "channel": 3,
+                "status": 1,
+                "is_bind": 1,
+                "bind_name": ""
+            },
+            {
+                "channel": 6,
+                "status": 1,
+                "is_bind": 0,
+                "bind_name": ""
+            }
+        ],
+        "nicknameSetUrl": "http://lite.hupu.com/3/7.5.26/status/setNicknamePage?nickname=\u5192\u6ce1\u54c7\u54c7\u54c7&client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06",
+        "header": "https://i2.hoopchina.com.cn/user/182/35138216940182/35138216940182-1609247671.png@194h_194w_2e",
+        "tag": "6e1f1acc806ce800dc7fd20fdad44d1b",
+        "newJr": false,
+        "nickname_set_url": "http://lite.hupu.com/3/7.5.26/status/setNicknamePage?nickname=\u5192\u6ce1\u54c7\u54c7\u54c7&client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06"
+    }
+}
+
+2021-01-05 21:18:46.899 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 225.39 ms, response_length: 0 bytes
+2021-01-05 21:18:46.899 | INFO     | httprunner.response:extract:176 - extract mapping: {'nickname': '冒泡哇哇哇'}
+2021-01-05 21:18:46.899 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2021-01-05 21:18:46.900 | INFO     | httprunner.response:validate:246 - assert body.isLogin equal 1(int)	==> pass
+2021-01-05 21:18:46.900 | INFO     | httprunner.runner:__run_step:304 - run step end: /3/7.5.26/bplapi/user/v1/loginByEmailPassword <<<<<<
+
+2021-01-05 21:18:46.900 | INFO     | httprunner.runner:__run_step_testcase:286 - export variables: {'nickname': '冒泡哇哇哇'}
+2021-01-05 21:18:46.901 | INFO     | httprunner.runner:__run_step:304 - run step end: 登录 <<<<<<
+
+2021-01-05 21:18:46.901 | INFO     | httprunner.runner:__run_step:292 - run step begin: /3/7.5.26/collect/getThreadsCollectList >>>>>>
+2021-01-05 21:18:47.149 | WARNING  | httprunner.client:request:188 - failed to get client address info: 'WrappedSocket' object has no attribute 'getsockname'
+2021-01-05 21:18:47.150 | WARNING  | httprunner.client:request:196 - failed to get server address info: 'WrappedSocket' object has no attribute 'getpeername'
+2021-01-05 21:18:47.151 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : https://games-pre.mobileapi.hupu.com/3/7.5.26/collect/getThreadsCollectList
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-35b07f9c-03eb-49cb-9f5c-9bc420896056-726902",
+    "Cookie": "_gamesu=MzgzNTI0NDc%3D%7CMTYwOTg1MjcyNg%3D%3D%7Ce900999b01389a05cb79620c09023fdd; pctpct=oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlUZt%2F%2FH2eN9Xsj6gKolTI0MOD137fNLHapUf%2FeTgL%2FQhg%3D%3D; u=52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D; ua=23331198; us=ffa6353110b37bc277678faaf9ccf0d59f776c1ec6dcdddc8f5c83509d56e6fc1426ad8126dd3b4621ddbfbbfb11c4d9396ac0f1ba0c509e35ff876d17c06c0c"
+}
+cookies  : {
+    "_gamesu": "MzgzNTI0NDc%3D%7CMTYwOTg1MjcyNg%3D%3D%7Ce900999b01389a05cb79620c09023fdd",
+    "pctpct": "oocbtBskUKNrDpDgVzl919lITzvQqo2inbluXdLCFlUZt%2F%2FH2eN9Xsj6gKolTI0MOD137fNLHapUf%2FeTgL%2FQhg%3D%3D",
+    "u": "52498468%7C5YaS5rOh5ZOH5ZOH5ZOH%7Ce0ff%7Ca227ad2012f8ac9d06f58233e5e40fd5%7C12f8ac9d06f58233%7C56uv5pyo5YCp5YCpMQ%3D%3D",
+    "ua": "23331198",
+    "us": "ffa6353110b37bc277678faaf9ccf0d59f776c1ec6dcdddc8f5c83509d56e6fc1426ad8126dd3b4621ddbfbbfb11c4d9396ac0f1ba0c509e35ff876d17c06c0c"
+}
+body     : None
+
+2021-01-05 21:18:47.155 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Tue, 05 Jan 2021 13:18:47 GMT",
+    "Content-Type": "application/json;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Cache-control": "no-cache, must-revalidate",
+    "Expires": "Sat, 26 Jul 1997 05:00:00 GMT",
+    "Set-Cookie": "cid=91604535; expires=Tue, 12-Jan-2021 13:18:46 GMT; path=/; domain=.hupu.com; httponly",
+    "X-Server": "kq-web-stg-01440-ecs, ops-xiaozhao-lb-stg-04646-ecs",
+    "Content-Encoding": "gzip"
+}
+cookies  : {
+    "cid": "91604535"
+}
+encoding : utf-8
+content_type : application/json;charset=utf-8
+body     : {
+    "result": {
+        "status": 1,
+        "page": "1",
+        "nextDataExists": 0,
+        "data": [
+            {
+                "tid": "40051708",
+                "puid": "67382140",
+                "title": "\u5e74\u5ea6\u6d3b\u52a8 \u9884\u53d1\u73af\u5883",
+                "recommend_num": "0",
+                "visits": 322,
+                "replies": "0",
+                "lights": "0",
+                "lastpost_puid": "67382140",
+                "lastpost_username": "\u4e00\u76f4\u5f88\u53ef\u7231\u8036\u8036\u8036",
+                "update_info": "",
+                "via": "10",
+                "is_lock": "0",
+                "attr": "a:3:{s:9:\"recommend\";s:2:\"on\";s:10:\"request_id\";s:39:\"122910-df2b5e3b95ad4bfcab4b24d2363c5853\";s:9:\"share_num\";i:1;}",
+                "status": "0",
+                "create_time": "1609208343",
+                "type": 0,
+                "lastpost_time": "1609208343",
+                "digest": "0",
+                "fid": "4524",
+                "topic_id": "362",
+                "topic_name": "\u7248\u7248",
+                "forum": {
+                    "fid": "4524",
+                    "name": "\u7248\u72481",
+                    "logo": "https://i3.hoopchina.com.cn//blogfile/201704/10/BbsImg149179209364850_110x90big.png",
+                    "description": ""
+                },
+                "username": "\u4e00\u76f4\u5f88\u53ef\u7231\u8036\u8036\u8036",
+                "nps": "0"
+            },
+            {
+                "tid": "37638312",
+                "puid": "29971540",
+                "title": "\u6211\u7684\u7b2c\u4e8c\u4e2a\u5b69\u5b50\u751f\u5728\u4e2d\u5143\u8282\uff1f\uff1f",
+                "recommend_num": "133",
+                "visits": 943443,
+                "replies": "804",
+                "lights": "50",
+                "lastpost_puid": "6485914",
+                "lastpost_username": "\u6211\u770b\u4e0d\u89c16\u5a03",
+                "update_info": "",
+                "via": "9",
+                "is_lock": "0",
+                "attr": "a:4:{s:12:\"reply_person\";i:803;s:9:\"recommend\";s:3:\"off\";s:10:\"request_id\";s:39:\"090123-e4291162379d4e24be5e38b2af2d899a\";s:9:\"share_num\";i:40;}",
+                "status": "0",
+                "create_time": "1598974627",
+                "type": 0,
+                "lastpost_time": "1599555319",
+                "digest": "0",
+                "fid": "34",
+                "topic_id": "1",
+                "topic_name": "\u6b65\u884c\u8857\u6bcf\u65e5\u8bdd\u9898",
+                "forum": {
+                    "fid": "34",
+                    "name": "\u6b65\u884c\u8857\u4e3b\u5e72\u9053",
+                    "logo": "https://i3.hoopchina.com.cn//blogfile/201512/23/BbsImg145086444416448_110*90.png",
+                    "description": "\u901b\u864e\u6251\u6b65\u884c\u8857\u6781\u6613\u4e0a\u763e\uff0c\u8bf7\u5404\u4f4d\u6ce8\u610f\u63a7\u5236\u65f6\u95f4\u54df ^_^ "
+                },
+                "username": "\u7a9d\u706b\u8001\u724c\u4f59\u5b7d",
+                "nps": "133"
+            },
+            {
+                "tid": "37179413",
+                "puid": "35263587",
+                "title": "\u4e3a\u4ec0\u4e48\u6709\u4e9b\u516c\u7acb\u533b\u9662\u533b\u751f\u5230\u5176\u4ed6\u533b\u9662\u505a\u624b\u672f",
+                "recommend_num": "5",
+                "visits": 47158,
+                "replies": "68",
+                "lights": "11",
+                "lastpost_puid": "35263587",
+                "lastpost_username": "\u7403\u7403\u7684\u732a\u732a",
+                "update_info": "",
+                "via": "10",
+                "is_lock": "0",
+                "attr": "a:2:{s:10:\"request_id\";s:39:\"081319-b53ec466dbbb4d0cb454cef965cfb27d\";s:12:\"reply_person\";i:41;}",
+                "status": "0",
+                "create_time": "1597319445",
+                "type": 0,
+                "lastpost_time": "1601026064",
+                "digest": "0",
+                "fid": "34",
+                "topic_id": "1",
+                "topic_name": "\u6b65\u884c\u8857\u6bcf\u65e5\u8bdd\u9898",
+                "forum": {
+                    "fid": "34",
+                    "name": "\u6b65\u884c\u8857\u4e3b\u5e72\u9053",
+                    "logo": "https://i3.hoopchina.com.cn//blogfile/201512/23/BbsImg145086444416448_110*90.png",
+                    "description": "\u901b\u864e\u6251\u6b65\u884c\u8857\u6781\u6613\u4e0a\u763e\uff0c\u8bf7\u5404\u4f4d\u6ce8\u610f\u63a7\u5236\u65f6\u95f4\u54df ^_^ "
+                },
+                "username": "\u7403\u7403\u7684\u732a\u732a",
+                "nps": "5"
+            },
+            {
+                "tid": "37109163",
+                "puid": "52498468",
+                "title": "\u9896\u5b9d\u7ec8\u4e8e\u590d\u51fa\u4e86",
+                "recommend_num": "1",
+                "visits": 214,
+                "replies": "0",
+                "lights": "0",
+                "lastpost_puid": "52498468",
+                "lastpost_username": "\u7f16\u53f720190428",
+                "update_info": "",
+                "via": "9",
+                "is_lock": "0",
+                "attr": "a:1:{s:10:\"request_id\";s:39:\"081016-ee421dbd7c9f480a9b900db7d62fd319\";}",
+                "status": "0",
+                "create_time": "1597047678",
+                "type": 0,
+                "lastpost_time": "1597047678",
+                "digest": "0",
+                "fid": "34",
+                "topic_id": "1",
+                "topic_name": "\u6b65\u884c\u8857\u6bcf\u65e5\u8bdd\u9898",
+                "forum": {
+                    "fid": "34",
+                    "name": "\u6b65\u884c\u8857\u4e3b\u5e72\u9053",
+                    "logo": "https://i3.hoopchina.com.cn//blogfile/201512/23/BbsImg145086444416448_110*90.png",
+                    "description": "\u901b\u864e\u6251\u6b65\u884c\u8857\u6781\u6613\u4e0a\u763e\uff0c\u8bf7\u5404\u4f4d\u6ce8\u610f\u63a7\u5236\u65f6\u95f4\u54df ^_^ "
+                },
+                "username": "\u5192\u6ce1\u54c7\u54c7\u54c7",
+                "nps": "1"
+            },
+            {
+                "tid": "35541522",
+                "puid": "69424506",
+                "title": "\u4e54\u4e39\u8a79\u59c6\u65af\u6392\u5386\u53f2\u524d\u4e8c\uff0c\u4ed6\u4eec\u90fd\u6ca1\u6709\u62ff\u8fc7\u8001\u4e8c\u51a0\u519b",
+                "recommend_num": "1",
+                "visits": 79893,
+                "replies": "118",
+                "lights": "19",
+                "lastpost_puid": "69424506",
+                "lastpost_username": "\u5408\u4f5c\u8def",
+                "update_info": "",
+                "via": "9",
+                "is_lock": "0",
+                "attr": "a:5:{s:6:\"oldFid\";i:1048;s:12:\"reply_person\";i:81;s:10:\"request_id\";s:39:\"052123-fef667ea93e446c7b8eba1d55c0dc477\";s:10:\"oldTopicId\";a:1:{i:0;i:177;}s:9:\"share_num\";i:2;}",
+                "status": "0",
+                "create_time": "1590074090",
+                "type": 0,
+                "lastpost_time": "1590192668",
+                "digest": "0",
+                "fid": "1048",
+                "topic_id": "177",
+                "topic_name": "\u6e7f\u4e4e\u4e4e\u7684\u8bdd\u9898",
+                "forum": {
+                    "fid": "1048",
+                    "name": "\u6e7f\u4e4e\u4e4e\u7684\u8bdd\u9898",
+                    "logo": "https://i3.hoopchina.com.cn//blogfile/201510/12/BbsImg144462016469330_110*88.png",
+                    "description": "\u5de5\u4e1a\u65f6\u4ee3\u662f\u5e72\u5df4\u5df4\u7684\uff0c\u6211\u4eec\u5728\u865a\u62df\u4e16\u754c\u7684\u5173\u7cfb\u662f\u6e7f\u4e4e\u4e4e\u7684\u3002\u6bcf\u4e00\u4e2a\u8bdd\u9898\uff0c\u90fd\u4f1a\u8ba9\u6211\u4eec\u66f4\u591a\u4e00\u4e9b\u4ea4\u96c6\uff0c\u66f4\u591a\u4e00\u4e9b\u9ecf\u7740\u529bO(\u2229_\u2229)O~"
+                },
+                "username": "\u738b\u65cf\u8303\u5708\u6587\u5316to\u672b\u956d\u7b11\u8bdd",
+                "nps": "1"
+            },
+            {
+                "tid": "33101818",
+                "puid": "56489617",
+                "title": "\u539f\u6765\u534e\u6668\u5b87\u771f\u7684\u662f\u4e09\u672c\u6bd5\u4e1a\u3002",
+                "recommend_num": "183",
+                "visits": 753206,
+                "replies": "666",
+                "lights": "50",
+                "lastpost_puid": "56489617",
+                "lastpost_username": "\u54c8\u54c8\u54c8\u54c8\u54c8\u5662\u5662",
+                "update_info": "",
+                "via": "9",
+                "is_lock": "0",
+                "attr": "a:5:{s:6:\"oldFid\";i:34;s:10:\"request_id\";s:36:\"46bf259d-eddc-4337-8ba5-4c79578b0a98\";s:10:\"oldTopicId\";a:1:{i:0;i:1;}s:12:\"reply_person\";i:532;s:9:\"share_num\";i:69;}",
+                "status": "0",
+                "create_time": "1584584435",
+                "type": 0,
+                "lastpost_time": "1587561041",
+                "digest": "0",
+                "fid": "34",
+                "topic_id": "59",
+                "topic_name": "\u5a31\u4e50\u5708",
+                "forum": {
+                    "fid": "34",
+                    "name": "\u6b65\u884c\u8857\u4e3b\u5e72\u9053",
+                    "logo": "https://i3.hoopchina.com.cn//blogfile/201512/23/BbsImg145086444416448_110*90.png",
+                    "description": "\u901b\u864e\u6251\u6b65\u884c\u8857\u6781\u6613\u4e0a\u763e\uff0c\u8bf7\u5404\u4f4d\u6ce8\u610f\u63a7\u5236\u65f6\u95f4\u54df ^_^ "
+                },
+                "username": "\u7eafikun\u706c",
+                "nps": "183"
+            },
+            {
+                "tid": "31368811",
+                "puid": "451633",
+                "title": "\u4e3a\u4ec0\u4e48\u6211\u89c9\u5f97\u8fd9\u79cd\u59d1\u5a18\u6bd4\u90a3\u4e9b\u7f51\u7ea2\u6574\u5bb9\u8138\u6f02\u4eae\u7684\u591a\uff1f",
+                "recommend_num": "119",
+                "visits": 566496,
+                "replies": "172",
+                "lights": "26",
+                "lastpost_puid": "32673314",
+                "lastpost_username": "\u79e3\u9675",
+                "update_info": "",
+                "via": "9",
+                "is_lock": "0",
+                "attr": "a:6:{s:10:\"request_id\";s:36:\"87ff6a73-c6f0-44b1-a9b3-10b12658381f\";s:12:\"reply_person\";s:3:\"165\";s:8:\"push2hot\";i:1;s:8:\"new_time\";i:1576811567;s:7:\"f_video\";i:1;s:9:\"share_num\";i:17;}",
+                "status": "0",
+                "create_time": "1576807370",
+                "type": 0,
+                "lastpost_time": "1577066287",
+                "digest": "0",
+                "fid": "34",
+                "topic_id": "41",
+                "topic_name": "\u8bba\u7f8e\u533a",
+                "forum": {
+                    "fid": "34",
+                    "name": "\u6b65\u884c\u8857\u4e3b\u5e72\u9053",
+                    "logo": "https://i3.hoopchina.com.cn//blogfile/201512/23/BbsImg145086444416448_110*90.png",
+                    "description": "\u901b\u864e\u6251\u6b65\u884c\u8857\u6781\u6613\u4e0a\u763e\uff0c\u8bf7\u5404\u4f4d\u6ce8\u610f\u63a7\u5236\u65f6\u95f4\u54df ^_^ "
+                },
+                "username": "micorazon",
+                "nps": "119"
+            },
+            {
+                "tid": "29857632",
+                "puid": "25799432",
+                "title": "\u5973\u6f14\u5458\u9648\u90fd\u7075\u89e3\u91ca\u540d\u5b57\u7531\u6765\uff0c\u56e0\u4e3a\u7238\u7238\u559c\u6b22\u5c24\u6587\u56fe\u65af\u6240\u4ee5\u53d6\u540d\u9648\u90fd\u7075",
+                "recommend_num": "105",
+                "visits": 192628,
+                "replies": "279",
+                "lights": "50",
+                "lastpost_puid": "19731487",
+                "lastpost_username": "\u82cf\u795e\u795e\u795e\u795e\u795e\u795e\u795e",
+                "update_info": "",
+                "via": "9",
+                "is_lock": "0",
+                "attr": "a:7:{s:6:\"oldFid\";s:4:\"1389\";s:12:\"reply_person\";s:3:\"209\";s:7:\"f_video\";i:1;s:12:\"audit_status\";i:1;s:10:\"request_id\";s:36:\"557b556f-7903-427e-af41-40fa77f72ba8\";s:10:\"video_info\";a:13:{s:3:\"vid\";s:6:\"694105\";s:8:\"from_url\";s:76:\"http://v.hoopchina.com.cn/hupuapp/bbs/0/0/thread__0_20191012213841_95621.mp4\";s:3:\"src\";s:133:\"http://v.hoopchina.com.cn/hupuapp/bbs/0/0/thread__0_20191012213841_95621.mp4?auth_key=1609864879-0-0-ed0aa26791921497b993acddf5f985f0\";s:3:\"img\";s:78:\"https://i5.hoopchina.com.cn/hupuapp/bbs/0/0/thread__0_20191012213841_89042.jpg\";s:5:\"width\";s:4:\"1280\";s:6:\"height\";s:3:\"706\";s:8:\"duration\";s:2:\"68\";s:4:\"size\";s:7:\"4779643\";s:6:\"expire\";s:10:\"1609863079\";s:8:\"play_num\";s:6:\"190960\";s:18:\"bullet_comment_num\";s:1:\"5\";s:6:\"status\";s:1:\"1\";s:6:\"origin\";s:0:\"\";}s:9:\"share_num\";i:55;}",
+                "status": "0",
+                "create_time": "1570887567",
+                "type": 0,
+                "lastpost_time": "1571451901",
+                "digest": "0",
+                "fid": "1389",
+                "topic_id": "184",
+                "topic_name": "\u8db3\u7403\u8bdd\u9898\u533a",
+                "forum": {
+                    "fid": "1389",
+                    "name": "\u8db3\u7403\u8bdd\u9898\u533a",
+                    "logo": "https://i3.hoopchina.com.cn//blogfile/201808/06/BbsImg_54211575862377_1533518922_s_4420_o_w_110_h_90_90913.png",
+                    "description": "\u6fc0\u8fa9\u5305\u5bb9\uff0c\u4e92\u76f8\u5b66\u4e60\uff0c\u5c0f\u8bdd\u9898\u6709\u5927\u5b66\u95ee\uff01"
+                },
+                "username": "\u7ef4\u62c97\u6bd42\u5229\u7269\u6d66",
+                "nps": "105",
+                "badge": [
+                    {
+                        "name": "\u89c6\u9891",
+                        "color": "FF8400"
+                    }
+                ]
+            }
+        ]
+    },
+    "is_login": 1,
+    "stat": {
+        "redis-cluster": {
+            "kq-base": 1,
+            "kq-nav": 1,
+            "kq-ad": 2,
+            "kq-user": 2
+        },
+        "redis": [],
+        "db": {
+            "conn_rm-bp1436xmgjg8538xo.mysql.rds.aliyuncs.com_hupu_games": 1,
+            "query_select * from g_task where code = 'dailyLogin' limit 1": 1,
+            "conn_rm-bp1o67e94w09y30jg.mysql.rds.aliyuncs.com_hupu_games_user": 2,
+            "query_select * from g_user_task where `uid` = 38352447 and `task_id` = 1 and `date` = 20210105": 1,
+            "query_insert LOW_PRIORITY into g_user_info set last_time='1609852726', mid='38352447' on duplicate key update last_time='1609852726', mid='38352447'": 1
+        },
+        "net": {
+            "kqbbs-soa.hupu.io:8991": 1
+        }
+    }
+}
+
+2021-01-05 21:18:47.155 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 247.64 ms, response_length: 0 bytes
+2021-01-05 21:18:47.156 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2021-01-05 21:18:47.156 | INFO     | httprunner.response:validate:246 - assert body.is_login equal 1(int)	==> pass
+2021-01-05 21:18:47.157 | INFO     | httprunner.runner:__run_step:304 - run step end: /3/7.5.26/collect/getThreadsCollectList <<<<<<
+
+2021-01-05 21:18:47.157 | INFO     | httprunner.runner:test_start:460 - generate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/35b07f9c-03eb-49cb-9f5c-9bc420896056.run.log

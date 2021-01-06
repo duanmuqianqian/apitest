@@ -1,0 +1,67 @@
+2021-01-05 20:24:06.761 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: testcase description, TestCase ID: fd852997-5eb7-41ae-8636-e27f59b9d63e
+2021-01-05 20:24:06.762 | INFO     | httprunner.runner:__run_step:292 - run step begin: $title >>>>>>
+2021-01-05 20:24:06.763 | INFO     | httprunner.runner:__call_hooks:112 - call hook actions: setup request
+2021-01-05 20:24:06.763 | DEBUG    | httprunner.runner:__call_hooks:121 - call hook function: ${hook_up($request)}
+2021-01-05 20:24:06.830 | DEBUG    | httprunner.client:request:186 - client IP: 172.16.27.183, Port: 64958
+2021-01-05 20:24:06.831 | DEBUG    | httprunner.client:request:194 - server IP: 121.43.126.26, Port: 443
+2021-01-05 20:24:06.832 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : https://games-pre.mobileapi.hupu.com/3/7.5.26/bplapi/user/v1/loginByEmailPassword?client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded; charset=utf-8",
+    "HRUN-Request-ID": "HRUN-fd852997-5eb7-41ae-8636-e27f59b9d63e-446763",
+    "Content-Length": "92"
+}
+cookies  : {}
+body     : clientId=88505902&password=&username=13817441237&client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06
+
+2021-01-05 20:24:06.833 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Tue, 05 Jan 2021 12:24:06 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "103",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:stg:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2101052024068270715942201",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-xiaozhao-lb-stg-04646-ecs"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "isLogin": 0,
+    "crt": null,
+    "error": {
+        "id": 101,
+        "text": "\u63a5\u53e3\u4f20\u5165\u53c2\u6570\u4e0d\u5b8c\u6574\u6216\u6709\u8bef"
+    },
+    "result": null
+}
+
+2021-01-05 20:24:06.834 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 66.25 ms, response_length: 0 bytes
+2021-01-05 20:24:06.834 | INFO     | httprunner.runner:__call_hooks:112 - call hook actions: teardown request
+2021-01-05 20:24:06.834 | DEBUG    | httprunner.runner:__call_hooks:121 - call hook function: ${hook_down($response)}
+2021-01-05 20:24:06.835 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2021-01-05 20:24:06.835 | INFO     | httprunner.response:validate:246 - assert body.isLogin equal 0(int)	==> pass
+2021-01-05 20:24:06.836 | INFO     | httprunner.response:validate:246 - assert body.error.text contains 接口传入参数不完整或有误(str)	==> pass
+2021-01-05 20:24:06.836 | INFO     | httprunner.response:validate:246 - assert body.error.text contains 接口传入参数不完整或有误(str)	==> pass
+2021-01-05 20:24:06.837 | INFO     | httprunner.runner:__run_step:304 - run step end: $title <<<<<<
+
+2021-01-05 20:24:06.837 | INFO     | httprunner.runner:test_start:460 - generate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/fd852997-5eb7-41ae-8636-e27f59b9d63e.run.log

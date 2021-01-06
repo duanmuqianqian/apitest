@@ -1,0 +1,61 @@
+2020-12-16 14:55:11.753 | INFO     | httprunner.loader:load_dot_env_file:127 - Loading environment variables from /Users/duanmuqianqian/Documents/hupu/hrun_demo/.env
+2020-12-16 14:55:11.754 | DEBUG    | httprunner.utils:set_os_environ:33 - Set OS environment variable: USERNAME
+2020-12-16 14:55:11.754 | DEBUG    | httprunner.utils:set_os_environ:33 - Set OS environment variable: PASSWORD
+2020-12-16 14:55:11.758 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: 账号密码登录, TestCase ID: c7afa5fe-d6dd-4bed-b1d9-5b889179a688
+2020-12-16 14:55:11.759 | INFO     | httprunner.runner:__run_step:292 - run step begin: post form data >>>>>>
+2020-12-16 14:55:11.841 | DEBUG    | httprunner.client:request:186 - client IP: 172.16.27.176, Port: 51465
+2020-12-16 14:55:11.842 | DEBUG    | httprunner.client:request:194 - server IP: 47.111.82.176, Port: 443
+2020-12-16 14:55:11.842 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : https://games.mobileapi.hupu.com/1/7.5.26/bplapi/user/v1/loginByEmailPassword
+headers  : {
+    "User-Agent": "HttpRunner/3.1.4",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "HRUN-Request-ID": "HRUN-c7afa5fe-d6dd-4bed-b1d9-5b889179a688-711759",
+    "Content-Length": "64"
+}
+cookies  : {}
+body     : username =13817441237&password =65618383e140db353d238a14a1fdb2f5
+
+2020-12-16 14:55:11.843 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Wed, 16 Dec 2020 06:55:11 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "51",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:production:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2012161455118290909086356",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-zhaomin-prd-04662-ecs"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "isLogin": 0,
+    "crt": null,
+    "error": null,
+    "result": null
+}
+
+2020-12-16 14:55:11.843 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 82.24 ms, response_length: 0 bytes
+2020-12-16 14:55:11.844 | INFO     | httprunner.response:extract:176 - extract mapping: {'cookietoken': {}}
+2020-12-16 14:55:11.844 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2020-12-16 14:55:11.844 | INFO     | httprunner.runner:__run_step:304 - run step end: post form data <<<<<<
+
+2020-12-16 14:55:11.845 | INFO     | httprunner.runner:test_start:460 - generate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/c7afa5fe-d6dd-4bed-b1d9-5b889179a688.run.log

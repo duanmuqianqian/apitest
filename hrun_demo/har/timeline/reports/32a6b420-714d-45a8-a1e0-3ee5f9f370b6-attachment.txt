@@ -1,0 +1,79 @@
+[32m2020-12-28 18:41:11.796[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m451[0m - [1mStart to run testcase: 获取动态列表, TestCase ID: 8eeffcf9-cd5d-4011-90c2-c9675056a8b2[0m
+[32m2020-12-28 18:41:11.797[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: 登录 >>>>>>[0m
+[32m2020-12-28 18:41:11.797[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: /3/7.5.26/bplapi/user/v1/loginByEmailPassword >>>>>>[0m
+[32m2020-12-28 18:41:11.906[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m186[0m - [34m[1mclient IP: 172.16.27.176, Port: 56973[0m
+[32m2020-12-28 18:41:11.907[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m194[0m - [34m[1mserver IP: 115.29.225.109, Port: 443[0m
+[32m2020-12-28 18:41:11.907[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== request details ==================
+method   : POST
+url      : https://games.mobileapi.hupu.com/3/7.5.26/bplapi/user/v1/loginByEmailPassword?client=3102879F-6EE8-41D4-BCD0-4A95BCE06D06
+headers  : {
+    "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "HRUN-Request-ID": "HRUN-8eeffcf9-cd5d-4011-90c2-c9675056a8b2-071798",
+    "Content-Length": "62",
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+cookies  : {}
+body     : password=65618383e140db353d238a14a1fdb2f5&username=13817441237
+[0m
+[32m2020-12-28 18:41:11.909[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 28 Dec 2020 10:41:11 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "67",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:production:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2012281841118570892386352",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-zhaomin-prd-04685-ecs"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "status": 500,
+    "msg": "\u7f51\u8def\u5f02\u5e38\uff0c\u8bf7\u7a0d\u5019\u518d\u8bd5",
+    "result": null
+}
+[0m
+[32m2020-12-28 18:41:11.909[0m | [1mINFO    [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m218[0m - [1mstatus_code: 200, response_time(ms): 107.85 ms, response_length: 0 bytes[0m
+[32m2020-12-28 18:41:11.910[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert status_code equal 200(int)	==> pass[0m
+[32m2020-12-28 18:41:11.911[0m | [31m[1mERROR   [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m263[0m - [31m[1massert body.isLogin equal 1(int)	==> fail
+check_item: body.isLogin
+check_value: None(NoneType)
+assert_method: equal
+expect_value: 1(int)[0m
+[32m2020-12-28 18:41:11.912[0m | [31m[1mERROR   [0m | [36mhttprunner.runner[0m:[36mlog_req_resp_details[0m:[36m194[0m - [31m[1m
+******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: https://games.mobileapi.hupu.com/3/7.5.26/bplapi/user/v1/loginByEmailPassword
+method: POST
+headers: {'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI prokanqiu/7.5.26 iPhone13,2', 'HRUN-Request-ID': 'HRUN-8eeffcf9-cd5d-4011-90c2-c9675056a8b2-071798'}
+params: {'client': '3102879F-6EE8-41D4-BCD0-4A95BCE06D06'}
+data: {'password': '65618383e140db353d238a14a1fdb2f5', 'username': '13817441237'}
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+json: None
+
+====== response details ======
+status_code: 200
+headers: {'Date': 'Mon, 28 Dec 2020 10:41:11 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '67', 'Connection': 'keep-alive', 'X-Application-Context': 'msv-zuul-hupu:production:8080', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate', 'Pragma': 'no-cache', 'Expires': '0', 'X-Frame-Options': 'DENY', 'rtid': '2012281841118570892386352', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Credentials': 'true', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Methods': 'PUT, POST, GET, OPTIONS, DELETE', 'X-Server': 'ops-zhaomin-prd-04685-ecs'}
+body: '{"status":500,"msg":"网路异常，请稍候再试","result":null}'
+[0m
+[32m2020-12-28 18:41:11.914[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m460[0m - [1mgenerate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/8eeffcf9-cd5d-4011-90c2-c9675056a8b2.run.log[0m

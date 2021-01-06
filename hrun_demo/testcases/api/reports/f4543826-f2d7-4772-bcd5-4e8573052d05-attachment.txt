@@ -1,0 +1,138 @@
+[32m2020-12-16 16:13:30.296[0m | [1mINFO    [0m | [36mhttprunner.loader[0m:[36mload_dot_env_file[0m:[36m127[0m - [1mLoading environment variables from /Users/duanmuqianqian/Documents/hupu/hrun_demo/.env[0m
+[32m2020-12-16 16:13:30.297[0m | [34m[1mDEBUG   [0m | [36mhttprunner.utils[0m:[36mset_os_environ[0m:[36m33[0m - [34m[1mSet OS environment variable: USERNAME[0m
+[32m2020-12-16 16:13:30.297[0m | [34m[1mDEBUG   [0m | [36mhttprunner.utils[0m:[36mset_os_environ[0m:[36m33[0m - [34m[1mSet OS environment variable: PASSWORD[0m
+[32m2020-12-16 16:13:30.301[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m451[0m - [1mStart to run testcase: request methods testcase with functions, TestCase ID: 748d1b93-7500-4a04-b185-b6562e00b103[0m
+[32m2020-12-16 16:13:30.302[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: 登录 >>>>>>[0m
+[32m2020-12-16 16:13:30.302[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: post form data >>>>>>[0m
+[32m2020-12-16 16:13:30.497[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m186[0m - [34m[1mclient IP: 172.16.27.176, Port: 49292[0m
+[32m2020-12-16 16:13:30.497[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m194[0m - [34m[1mserver IP: 47.96.1.93, Port: 443[0m
+[32m2020-12-16 16:13:30.498[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== request details ==================
+method   : POST
+url      : https://games.mobileapi.hupu.com/1/7.5.26/bplapi/user/v1/loginByEmailPassword
+headers  : {
+    "User-Agent": "HttpRunner/3.1.4",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "HRUN-Request-ID": "HRUN-748d1b93-7500-4a04-b185-b6562e00b103-410303",
+    "Content-Length": "64"
+}
+cookies  : {}
+body     : username =13817441237&password =65618383e140db353d238a14a1fdb2f5
+[0m
+[32m2020-12-16 16:13:30.499[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Wed, 16 Dec 2020 08:13:30 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Content-Length": "51",
+    "Connection": "keep-alive",
+    "X-Application-Context": "msv-zuul-hupu:production:8080",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "rtid": "2012161613303670952286298",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Max-Age": "3600",
+    "Access-Control-Allow-Methods": "PUT, POST, GET, OPTIONS, DELETE",
+    "X-Server": "ops-zhaomin-prd-04653-ecs"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "isLogin": 0,
+    "crt": null,
+    "error": null,
+    "result": null
+}
+[0m
+[32m2020-12-16 16:13:30.499[0m | [1mINFO    [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m218[0m - [1mstatus_code: 200, response_time(ms): 194.29 ms, response_length: 0 bytes[0m
+[32m2020-12-16 16:13:30.499[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mextract[0m:[36m176[0m - [1mextract mapping: {'cookietoken': {}}[0m
+[32m2020-12-16 16:13:30.500[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert status_code equal 200(int)	==> pass[0m
+[32m2020-12-16 16:13:30.500[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m304[0m - [1mrun step end: post form data <<<<<<
+[0m
+[32m2020-12-16 16:13:30.500[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step_testcase[0m:[36m286[0m - [1mexport variables: {'cookietoken': {}}[0m
+[32m2020-12-16 16:13:30.500[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m304[0m - [1mrun step end: 登录 <<<<<<
+[0m
+[32m2020-12-16 16:13:30.501[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36m__run_step[0m:[36m292[0m - [1mrun step begin: 查看收藏列表 >>>>>>[0m
+[32m2020-12-16 16:13:30.532[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m186[0m - [34m[1mclient IP: 172.16.27.176, Port: 49292[0m
+[32m2020-12-16 16:13:30.533[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m194[0m - [34m[1mserver IP: 47.96.1.93, Port: 443[0m
+[32m2020-12-16 16:13:30.533[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== request details ==================
+method   : GET
+url      : https://games.mobileapi.hupu.com/1/7.5.26/collect/getThreadsCollectList?clientId=90062738&sign=ced59608fb8da0cc83b2b50035d31188&client=8f74bfbade53cc1a&page=1
+headers  : {
+    "User-Agent": "HttpRunner/3.1.4",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Type": "text/plain",
+    "HRUN-Request-ID": "HRUN-748d1b93-7500-4a04-b185-b6562e00b103-410501"
+}
+cookies  : {}
+body     : None
+[0m
+[32m2020-12-16 16:13:30.535[0m | [34m[1mDEBUG   [0m | [36mhttprunner.client[0m:[36mlog_print[0m:[36m40[0m - [34m[1m
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Wed, 16 Dec 2020 08:13:30 GMT",
+    "Content-Type": "application/json;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Cache-control": "no-cache, must-revalidate",
+    "Expires": "Sat, 26 Jul 1997 05:00:00 GMT",
+    "Set-Cookie": "cid=90062738; expires=Wed, 23-Dec-2020 08:13:30 GMT; path=/; domain=.hupu.com; httponly",
+    "X-Server": "kq-index-prd-01905-ecs, ops-zhaomin-prd-04681-ecs",
+    "Content-Encoding": "gzip"
+}
+cookies  : {
+    "cid": "90062738"
+}
+encoding : utf-8
+content_type : application/json;charset=utf-8
+body     : {
+    "error": {
+        "id": 101,
+        "text": "\u63a5\u53e3\u4f20\u5165\u53c2\u6570\u4e0d\u5b8c\u6574\u6216\u6709\u8bef"
+    },
+    "is_login": 0
+}
+[0m
+[32m2020-12-16 16:13:30.535[0m | [1mINFO    [0m | [36mhttprunner.client[0m:[36mrequest[0m:[36m218[0m - [1mstatus_code: 200, response_time(ms): 31.07 ms, response_length: 0 bytes[0m
+[32m2020-12-16 16:13:30.535[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mextract[0m:[36m176[0m - [1mextract mapping: {'result': None}[0m
+[32m2020-12-16 16:13:30.536[0m | [1mINFO    [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m246[0m - [1massert status_code equal 200(int)	==> pass[0m
+[32m2020-12-16 16:13:30.536[0m | [31m[1mERROR   [0m | [36mhttprunner.response[0m:[36mvalidate[0m:[36m263[0m - [31m[1massert status equal 1(int)	==> fail
+check_item: status
+check_value: None(NoneType)
+assert_method: equal
+expect_value: 1(int)[0m
+[32m2020-12-16 16:13:30.536[0m | [31m[1mERROR   [0m | [36mhttprunner.runner[0m:[36mlog_req_resp_details[0m:[36m194[0m - [31m[1m
+******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: https://games.mobileapi.hupu.com/1/7.5.26/collect/getThreadsCollectList
+method: GET
+headers: {'User-Agent': 'HttpRunner/3.1.4', 'Content-Type': 'text/plain', 'HRUN-Request-ID': 'HRUN-748d1b93-7500-4a04-b185-b6562e00b103-410501'}
+params: {'clientId': 90062738, 'sign': 'ced59608fb8da0cc83b2b50035d31188', 'client': '8f74bfbade53cc1a', 'page': 1}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+json: None
+
+====== response details ======
+status_code: 200
+headers: {'Date': 'Wed, 16 Dec 2020 08:13:30 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Cache-control': 'no-cache, must-revalidate', 'Expires': 'Sat, 26 Jul 1997 05:00:00 GMT', 'Set-Cookie': 'cid=90062738; expires=Wed, 23-Dec-2020 08:13:30 GMT; path=/; domain=.hupu.com; httponly', 'X-Server': 'kq-index-prd-01905-ecs, ops-zhaomin-prd-04681-ecs', 'Content-Encoding': 'gzip'}
+body: '{"error":{"id":101,"text":"接口传入参数不完整或有误"},"is_login":0}'
+[0m
+[32m2020-12-16 16:13:30.539[0m | [1mINFO    [0m | [36mhttprunner.runner[0m:[36mtest_start[0m:[36m460[0m - [1mgenerate testcase log: /Users/duanmuqianqian/Documents/hupu/hrun_demo/logs/748d1b93-7500-4a04-b185-b6562e00b103.run.log[0m

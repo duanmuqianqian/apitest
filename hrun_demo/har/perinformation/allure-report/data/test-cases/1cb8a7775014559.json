@@ -1,0 +1,121 @@
+{
+  "uid" : "1cb8a7775014559",
+  "name" : "testcase description",
+  "fullName" : "setGender_test.TestCaseSetgender#test_start",
+  "historyId" : "c946d9add66b656119d91a34ba032b7f",
+  "time" : {
+    "start" : 1609252099099,
+    "stop" : 1609252099719,
+    "duration" : 620
+  },
+  "description" : "TestCase ID: a2f4a703-4673-4421-a0a0-4e69c6234b58",
+  "descriptionHtml" : "<p>TestCase ID: a2f4a703-4673-4421-a0a0-4e69c6234b58</p>\n",
+  "status" : "broken",
+  "statusMessage" : "httprunner.exceptions.VariableNotFound: get_gender not found in {'nickname': '冒泡哇哇哇'}",
+  "statusTrace" : "../../../venv/lib/python3.7/site-packages/httprunner/parser.py:229: in get_mapping_variable\n    return variables_mapping[variable_name]\nE   KeyError: 'get_gender'\n\nDuring handling of the above exception, another exception occurred:\n../../../venv/lib/python3.7/site-packages/httprunner/runner.py:456: in test_start\n    TestCase(config=self.__config, teststeps=self.__teststeps)\n../../../venv/lib/python3.7/site-packages/httprunner/runner.py:357: in run_testcase\n    extract_mapping = self.__run_step(step)\n../../../venv/lib/python3.7/site-packages/httprunner/runner.py:295: in __run_step\n    step_data = self.__run_step_request(step)\n../../../venv/lib/python3.7/site-packages/httprunner/runner.py:146: in __run_step_request\n    request_dict, step.variables, self.__project_meta.functions\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:416: in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:416: in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:405: in parse_data\n    return parse_string(raw_data, variables_mapping, functions_mapping)\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:365: in parse_string\n    var_value = get_mapping_variable(var_name, variables_mapping)\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:232: in get_mapping_variable\n    f\"{variable_name} not found in {variables_mapping}\"\nE   httprunner.exceptions.VariableNotFound: get_gender not found in {'nickname': '冒泡哇哇哇'}",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: a2f4a703-4673-4421-a0a0-4e69c6234b58",
+    "status" : "broken",
+    "statusMessage" : "httprunner.exceptions.VariableNotFound: get_gender not found in {'nickname': '冒泡哇哇哇'}",
+    "statusTrace" : "../../../venv/lib/python3.7/site-packages/httprunner/parser.py:229: in get_mapping_variable\n    return variables_mapping[variable_name]\nE   KeyError: 'get_gender'\n\nDuring handling of the above exception, another exception occurred:\n../../../venv/lib/python3.7/site-packages/httprunner/runner.py:456: in test_start\n    TestCase(config=self.__config, teststeps=self.__teststeps)\n../../../venv/lib/python3.7/site-packages/httprunner/runner.py:357: in run_testcase\n    extract_mapping = self.__run_step(step)\n../../../venv/lib/python3.7/site-packages/httprunner/runner.py:295: in __run_step\n    step_data = self.__run_step_request(step)\n../../../venv/lib/python3.7/site-packages/httprunner/runner.py:146: in __run_step_request\n    request_dict, step.variables, self.__project_meta.functions\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:416: in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:416: in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:405: in parse_data\n    return parse_string(raw_data, variables_mapping, functions_mapping)\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:365: in parse_string\n    var_value = get_mapping_variable(var_name, variables_mapping)\n../../../venv/lib/python3.7/site-packages/httprunner/parser.py:232: in get_mapping_variable\n    f\"{variable_name} not found in {variables_mapping}\"\nE   httprunner.exceptions.VariableNotFound: get_gender not found in {'nickname': '冒泡哇哇哇'}",
+    "steps" : [ {
+      "name" : "step: 登录",
+      "time" : {
+        "start" : 1609252099108,
+        "stop" : 1609252099715,
+        "duration" : 607
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: /3/7.5.26/bplapi/user/v1/loginByEmailPassword",
+        "time" : {
+          "start" : 1609252099108,
+          "stop" : 1609252099714,
+          "duration" : 606
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step: 更改性别",
+      "time" : {
+        "start" : 1609252099715,
+        "stop" : 1609252099715,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "httprunner.exceptions.VariableNotFound: get_gender not found in {'nickname': '冒泡哇哇哇'}\n",
+      "statusTrace" : "  File \"/Users/duanmuqianqian/Documents/hupu/venv/lib/python3.7/site-packages/httprunner/runner.py\", line 357, in run_testcase\n    extract_mapping = self.__run_step(step)\n  File \"/Users/duanmuqianqian/Documents/hupu/venv/lib/python3.7/site-packages/httprunner/runner.py\", line 295, in __run_step\n    step_data = self.__run_step_request(step)\n  File \"/Users/duanmuqianqian/Documents/hupu/venv/lib/python3.7/site-packages/httprunner/runner.py\", line 146, in __run_step_request\n    request_dict, step.variables, self.__project_meta.functions\n  File \"/Users/duanmuqianqian/Documents/hupu/venv/lib/python3.7/site-packages/httprunner/parser.py\", line 416, in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n  File \"/Users/duanmuqianqian/Documents/hupu/venv/lib/python3.7/site-packages/httprunner/parser.py\", line 416, in parse_data\n    parsed_value = parse_data(value, variables_mapping, functions_mapping)\n  File \"/Users/duanmuqianqian/Documents/hupu/venv/lib/python3.7/site-packages/httprunner/parser.py\", line 405, in parse_data\n    return parse_string(raw_data, variables_mapping, functions_mapping)\n  File \"/Users/duanmuqianqian/Documents/hupu/venv/lib/python3.7/site-packages/httprunner/parser.py\", line 365, in parse_string\n    var_value = get_mapping_variable(var_name, variables_mapping)\n  File \"/Users/duanmuqianqian/Documents/hupu/venv/lib/python3.7/site-packages/httprunner/parser.py\", line 232, in get_mapping_variable\n    f\"{variable_name} not found in {variables_mapping}\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "de14ff3dda37f802",
+      "name" : "stderr",
+      "source" : "de14ff3dda37f802.txt",
+      "type" : "text/plain",
+      "size" : 10118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "setGender_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseSetgender"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-5.local"
+  }, {
+    "name" : "thread",
+    "value" : "31818-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "setGender_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1cb8a7775014559.json",
+  "parameterValues" : [ ]
+}

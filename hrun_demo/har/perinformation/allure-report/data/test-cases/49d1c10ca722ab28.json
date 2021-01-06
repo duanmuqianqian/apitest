@@ -1,0 +1,151 @@
+{
+  "uid" : "49d1c10ca722ab28",
+  "name" : "testcase description",
+  "fullName" : "setGender_test.TestCaseSetgender#test_start",
+  "historyId" : "c946d9add66b656119d91a34ba032b7f",
+  "time" : {
+    "start" : 1609307238387,
+    "stop" : 1609307238746,
+    "duration" : 359
+  },
+  "description" : "TestCase ID: 5723c645-8fe2-4e18-b424-3734d8b04610",
+  "descriptionHtml" : "<p>TestCase ID: 5723c645-8fe2-4e18-b424-3734d8b04610</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 5723c645-8fe2-4e18-b424-3734d8b04610",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: 登录",
+      "time" : {
+        "start" : 1609307238392,
+        "stop" : 1609307238677,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: /3/7.5.26/bplapi/user/v1/loginByEmailPassword",
+        "time" : {
+          "start" : 1609307238393,
+          "stop" : 1609307238676,
+          "duration" : 283
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step: 更改性别",
+      "time" : {
+        "start" : 1609307238677,
+        "stop" : 1609307238745,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b0719e38a40b41a",
+      "name" : "stderr",
+      "source" : "b0719e38a40b41a.txt",
+      "type" : "text/plain",
+      "size" : 12095
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "setGender_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseSetgender"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-5.local"
+  }, {
+    "name" : "thread",
+    "value" : "37068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "setGender_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bc64fae119c104fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609252268120,
+        "stop" : 1609252268599,
+        "duration" : 479
+      }
+    }, {
+      "uid" : "f560b9f4e87178f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609252159062,
+        "stop" : 1609252159662,
+        "duration" : 600
+      }
+    }, {
+      "uid" : "1cb8a7775014559",
+      "status" : "broken",
+      "statusDetails" : "httprunner.exceptions.VariableNotFound: get_gender not found in {'nickname': '冒泡哇哇哇'}",
+      "time" : {
+        "start" : 1609252099099,
+        "stop" : 1609252099719,
+        "duration" : 620
+      }
+    }, {
+      "uid" : "ab555d5efcb5bc24",
+      "status" : "broken",
+      "statusDetails" : "httprunner.exceptions.VariableNotFound: get_gender not found in {'nickname': '冒泡哇哇哇'}",
+      "time" : {
+        "start" : 1609251950839,
+        "stop" : 1609251951351,
+        "duration" : 512
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49d1c10ca722ab28.json",
+  "parameterValues" : [ ]
+}

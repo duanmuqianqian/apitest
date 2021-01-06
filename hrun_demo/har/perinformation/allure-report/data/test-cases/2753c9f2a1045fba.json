@@ -1,0 +1,156 @@
+{
+  "uid" : "2753c9f2a1045fba",
+  "name" : "testcase description",
+  "fullName" : "changeheader_test.TestCaseChangeheader#test_start",
+  "historyId" : "88463fbc2c475cd7f8523f8aad5ec73f",
+  "time" : {
+    "start" : 1609307236162,
+    "stop" : 1609307236646,
+    "duration" : 484
+  },
+  "description" : "TestCase ID: 0e175f03-c9cb-484e-bb3c-4b0adf61fa76",
+  "descriptionHtml" : "<p>TestCase ID: 0e175f03-c9cb-484e-bb3c-4b0adf61fa76</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1609307235442,
+      "stop" : 1609307235442,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "TestCase ID: 0e175f03-c9cb-484e-bb3c-4b0adf61fa76",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: 登录",
+      "time" : {
+        "start" : 1609307236169,
+        "stop" : 1609307236605,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: /3/7.5.26/bplapi/user/v1/loginByEmailPassword",
+        "time" : {
+          "start" : 1609307236169,
+          "stop" : 1609307236605,
+          "duration" : 436
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step: 改头像",
+      "time" : {
+        "start" : 1609307236605,
+        "stop" : 1609307236646,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5c6948b6ee9a7d5d",
+      "name" : "stdout",
+      "source" : "5c6948b6ee9a7d5d.txt",
+      "type" : "text/plain",
+      "size" : 28
+    }, {
+      "uid" : "f13e33ee29c29d0e",
+      "name" : "stderr",
+      "source" : "f13e33ee29c29d0e.txt",
+      "type" : "text/plain",
+      "size" : 12224
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1609307236647,
+      "stop" : 1609307236647,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "changeheader_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseChangeheader"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-5.local"
+  }, {
+    "name" : "thread",
+    "value" : "37068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "changeheader_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'title': '不传递头像数据', 'headerPath': '', 'status': 500, 'msg': '接口传入参数不完整或有误'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2753c9f2a1045fba.json",
+  "parameterValues" : [ "{'title': '不传递头像数据', 'headerPath': '', 'status': 500, 'msg': '接口传入参数不完整或有误'}" ]
+}

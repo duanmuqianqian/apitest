@@ -1,0 +1,115 @@
+{
+  "uid" : "bc64fae119c104fb",
+  "name" : "testcase description",
+  "fullName" : "setGender_test.TestCaseSetgender#test_start",
+  "historyId" : "c946d9add66b656119d91a34ba032b7f",
+  "time" : {
+    "start" : 1609252268120,
+    "stop" : 1609252268599,
+    "duration" : 479
+  },
+  "description" : "TestCase ID: 89d3cd1b-c52f-423c-8be8-da03bf047f4a",
+  "descriptionHtml" : "<p>TestCase ID: 89d3cd1b-c52f-423c-8be8-da03bf047f4a</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: 89d3cd1b-c52f-423c-8be8-da03bf047f4a",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: 登录",
+      "time" : {
+        "start" : 1609252268126,
+        "stop" : 1609252268543,
+        "duration" : 417
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step: /3/7.5.26/bplapi/user/v1/loginByEmailPassword",
+        "time" : {
+          "start" : 1609252268126,
+          "stop" : 1609252268542,
+          "duration" : 416
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "step: 更改性别",
+      "time" : {
+        "start" : 1609252268543,
+        "stop" : 1609252268599,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "adcd6a94c03b5852",
+      "name" : "stderr",
+      "source" : "adcd6a94c03b5852.txt",
+      "type" : "text/plain",
+      "size" : 14316
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "setGender_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseSetgender"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-5.local"
+  }, {
+    "name" : "thread",
+    "value" : "31913-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "setGender_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc64fae119c104fb.json",
+  "parameterValues" : [ ]
+}
